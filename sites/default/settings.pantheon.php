@@ -70,7 +70,7 @@ $is_installer_url = (strpos($_SERVER['SCRIPT_NAME'], '/core/install.php') === 0)
  * at https://www.drupal.org/node/2431247
  *
  */
-$settings['config_sync_directory'] =  'sites/default/files';
+$settings['config_sync_directory'] =  'config/sync';
 
 
 /**
