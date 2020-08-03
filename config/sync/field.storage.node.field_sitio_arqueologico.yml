@@ -1,0 +1,21 @@
+uuid: 13028ae5-e812-4307-838a-2c397b6cf879
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_sitio_arqueologico
+field_name: field_sitio_arqueologico
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

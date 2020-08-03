@@ -1,0 +1,19 @@
+uuid: ab467891-559b-4185-8250-0f644e69f901
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_provincia
+    - node.type.cedula
+id: node.cedula.field_provincia
+field_name: field_provincia
+entity_type: node
+bundle: cedula
+label: Provincia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

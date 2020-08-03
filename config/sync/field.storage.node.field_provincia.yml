@@ -1,0 +1,21 @@
+uuid: ba8daeb6-4392-4e14-bb55-a027551064fa
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_provincia
+field_name: field_provincia
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

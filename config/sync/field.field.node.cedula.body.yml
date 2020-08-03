@@ -1,0 +1,23 @@
+uuid: a6bad922-363f-49a7-bb6e-3119486b4100
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cedula
+  module:
+    - text
+id: node.cedula.body
+field_name: body
+entity_type: node
+bundle: cedula
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

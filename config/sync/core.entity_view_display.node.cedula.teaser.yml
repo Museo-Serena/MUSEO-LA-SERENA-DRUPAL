@@ -1,0 +1,45 @@
+uuid: 744c325f-5949-4168-bc11-62402a38b1ad
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cedula.body
+    - field.field.node.cedula.field_3d
+    - field.field.node.cedula.field_comuna
+    - field.field.node.cedula.field_material
+    - field.field.node.cedula.field_numero_inventario
+    - field.field.node.cedula.field_provincia
+    - field.field.node.cedula.field_sitio_arqueologico
+    - field.field.node.cedula.field_video
+    - node.type.cedula
+  module:
+    - text
+    - user
+id: node.cedula.teaser
+targetEntityType: node
+bundle: cedula
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_3d: true
+  field_comuna: true
+  field_material: true
+  field_numero_inventario: true
+  field_provincia: true
+  field_sitio_arqueologico: true
+  field_video: true
+  langcode: true

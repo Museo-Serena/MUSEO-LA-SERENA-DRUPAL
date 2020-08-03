@@ -13,8 +13,8 @@ settings:
   id: netlify
   label: null
   provider: build_hooks_netlify
-  api_id: 4d63e14e-082a-48fb-978d-3e7de4c580a5
+  api_id: 486c3c9d-694a-450a-83e4-c44bec556857
   branch: master
-  build_hook_url: 'https://api.netlify.com/build_hooks/5f260de8c63401d47b2987ca'
-url: 'https://elated-feynman-f897e9.netlify.app'
+  build_hook_url: 'https://api.netlify.com/build_hooks/5f284374dc0ccb064932cb34'
+url: 'https://eduk-diseno.netlify.app'
 deployment_strategy: manual
