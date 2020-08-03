@@ -1,0 +1,21 @@
+uuid: d809eca6-7956-4858-8f7e-e176ea5f39ee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_type
+    - node.type.object
+  module:
+    - options
+id: node.object.field_resource_type
+field_name: field_resource_type
+entity_type: node
+bundle: object
+label: 'Resource type'
+description: 'Tipo de recurso del objeto. Este campo tiene relación con el campo Video. Si el video es video o no 3D'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

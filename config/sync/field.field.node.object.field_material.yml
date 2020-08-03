@@ -1,0 +1,21 @@
+uuid: 17bbb220-8fef-43f9-bb2d-9ad506ad0bcb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_material
+    - node.type.object
+  module:
+    - options
+id: node.object.field_material
+field_name: field_material
+entity_type: node
+bundle: object
+label: Material
+description: 'Material del Objeto'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

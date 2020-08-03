@@ -1,0 +1,20 @@
+uuid: 1af80099-9684-44fa-b6df-6a9d37bc23f3
+langcode: es
+status: true
+dependencies:
+  module:
+    - build_hooks_netlify
+id: netlify_prod
+label: 'Netlify Prod'
+weight: '0'
+provider: null
+plugin: netlify
+settings:
+  id: netlify
+  label: null
+  provider: build_hooks_netlify
+  api_id: 4d63e14e-082a-48fb-978d-3e7de4c580a5
+  branch: master
+  build_hook_url: 'https://api.netlify.com/build_hooks/5f260de8c63401d47b2987ca'
+url: 'https://elated-feynman-f897e9.netlify.app'
+deployment_strategy: manual

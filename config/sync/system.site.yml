@@ -1,0 +1,14 @@
+uuid: 5ea35209-0188-4c3e-9ab9-e1d6eaf263cf
+name: 'EDUK DISEÑO'
+mail: drupal_admin@soporte.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

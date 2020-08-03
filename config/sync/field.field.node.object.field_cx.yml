@@ -1,0 +1,19 @@
+uuid: cbfe47bb-f676-4a96-bbe6-66e1508fe669
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cx
+    - node.type.object
+id: node.object.field_cx
+field_name: field_cx
+entity_type: node
+bundle: object
+label: Cx
+description: 'Coordenada X del objeto'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

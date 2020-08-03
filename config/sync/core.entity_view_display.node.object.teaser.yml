@@ -1,0 +1,49 @@
+uuid: 0c891dd4-15f7-4017-aefc-9dadf2ca70c2
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.object.body
+    - field.field.node.object.field_code
+    - field.field.node.object.field_cr
+    - field.field.node.object.field_cx
+    - field.field.node.object.field_cy
+    - field.field.node.object.field_image
+    - field.field.node.object.field_material
+    - field.field.node.object.field_resource_type
+    - field.field.node.object.field_showcase
+    - field.field.node.object.field_video
+    - node.type.object
+  module:
+    - text
+    - user
+id: node.object.teaser
+targetEntityType: node
+bundle: object
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_code: true
+  field_cr: true
+  field_cx: true
+  field_cy: true
+  field_image: true
+  field_material: true
+  field_resource_type: true
+  field_showcase: true
+  field_video: true
+  langcode: true
