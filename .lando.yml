@@ -1,0 +1,15 @@
+name: eduk-diseno
+recipe: pantheon
+database: mariadb
+config:
+  framework: drupal8
+  site: eduk-diseno
+  id: efb31c9c-7b8a-4949-913b-e29c473e0e0b
+services:
+  myservice:
+    type: mariadb
+    portforward: true
+    creds:
+      user: drupal8
+      password: drupal8
+      database: drupal8
