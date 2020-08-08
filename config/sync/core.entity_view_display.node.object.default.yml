@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.object.field_cy
     - field.field.node.object.field_image
     - field.field.node.object.field_material
-    - field.field.node.object.field_resource_type
     - field.field.node.object.field_showcase
     - field.field.node.object.field_video
     - node.type.object
@@ -76,13 +75,6 @@ content:
     region: content
   field_material:
     weight: 103
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_resource_type:
-    weight: 112
     label: above
     settings: {  }
     third_party_settings: {  }

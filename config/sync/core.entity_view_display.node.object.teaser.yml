@@ -11,7 +11,6 @@ dependencies:
     - field.field.node.object.field_cy
     - field.field.node.object.field_image
     - field.field.node.object.field_material
-    - field.field.node.object.field_resource_type
     - field.field.node.object.field_showcase
     - field.field.node.object.field_video
     - node.type.object
@@ -43,7 +42,6 @@ hidden:
   field_cy: true
   field_image: true
   field_material: true
-  field_resource_type: true
   field_showcase: true
   field_video: true
   langcode: true

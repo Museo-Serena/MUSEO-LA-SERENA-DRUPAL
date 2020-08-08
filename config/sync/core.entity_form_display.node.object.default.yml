@@ -10,13 +10,11 @@ dependencies:
     - field.field.node.object.field_cy
     - field.field.node.object.field_image
     - field.field.node.object.field_material
-    - field.field.node.object.field_resource_type
     - field.field.node.object.field_showcase
     - field.field.node.object.field_video
     - image.style.thumbnail
     - node.type.object
   module:
-    - chosen_field
     - file
     - image
     - path
@@ -86,12 +84,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
-  field_resource_type:
-    weight: 6
-    settings: {  }
-    third_party_settings: {  }
-    type: chosen_select
     region: content
   field_showcase:
     weight: 10
