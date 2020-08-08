@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.cedula.body
     - field.field.node.cedula.field_3d
     - field.field.node.cedula.field_comuna
-    - field.field.node.cedula.field_material
     - field.field.node.cedula.field_numero_inventario
     - field.field.node.cedula.field_provincia
     - field.field.node.cedula.field_sitio_arqueologico
@@ -37,7 +36,6 @@ content:
 hidden:
   field_3d: true
   field_comuna: true
-  field_material: true
   field_numero_inventario: true
   field_provincia: true
   field_sitio_arqueologico: true

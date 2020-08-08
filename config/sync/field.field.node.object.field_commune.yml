@@ -1,16 +1,16 @@
-uuid: cbfe47bb-f676-4a96-bbe6-66e1508fe669
+uuid: 518ae641-6dd9-4c22-8eba-fce9fce90769
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_cx
+    - field.storage.node.field_commune
     - node.type.object
-id: node.object.field_cx
-field_name: field_cx
+id: node.object.field_commune
+field_name: field_commune
 entity_type: node
 bundle: object
-label: Cx
-description: 'Coordenada X del objeto'
+label: Commune
+description: ''
 required: true
 translatable: false
 default_value: {  }

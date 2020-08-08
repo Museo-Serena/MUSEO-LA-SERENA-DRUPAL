@@ -1,15 +1,15 @@
-uuid: 6f04669d-53c4-494d-bd31-724e81f4a24a
+uuid: 732290e5-6c92-4a9a-96fb-9a62757ff195
 langcode: es
 status: true
 dependencies:
   module:
     - node
-id: node.field_cy
-field_name: field_cy
+id: node.field_province
+field_name: field_province
 entity_type: node
 type: string
 settings:
-  max_length: 6
+  max_length: 255
   is_ascii: false
   case_sensitive: false
 module: core

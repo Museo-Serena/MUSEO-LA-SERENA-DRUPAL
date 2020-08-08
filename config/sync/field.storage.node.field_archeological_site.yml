@@ -1,15 +1,15 @@
-uuid: 1f90964b-0b9f-42f9-bb0e-6f82da20dd8f
+uuid: 8c7ba537-1d06-4e01-aaf7-04dc9ca6075a
 langcode: es
 status: true
 dependencies:
   module:
     - node
-id: node.field_cx
-field_name: field_cx
+id: node.field_archeological_site
+field_name: field_archeological_site
 entity_type: node
 type: string
 settings:
-  max_length: 6
+  max_length: 255
   is_ascii: false
   case_sensitive: false
 module: core

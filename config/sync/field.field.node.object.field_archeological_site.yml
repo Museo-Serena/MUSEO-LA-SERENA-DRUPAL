@@ -1,16 +1,16 @@
-uuid: 02719564-6091-4be3-87c9-b06b1c6b6211
+uuid: bd570bdc-14bd-44dc-997d-4d796871ec82
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_cr
+    - field.storage.node.field_archeological_site
     - node.type.object
-id: node.object.field_cr
-field_name: field_cr
+id: node.object.field_archeological_site
+field_name: field_archeological_site
 entity_type: node
 bundle: object
-label: Cr
-description: 'Coordenada Radio del objeto'
+label: 'Archeological site'
+description: ''
 required: true
 translatable: false
 default_value: {  }

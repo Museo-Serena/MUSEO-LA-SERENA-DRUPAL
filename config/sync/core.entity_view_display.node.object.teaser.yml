@@ -5,12 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.object.body
+    - field.field.node.object.field_3d
+    - field.field.node.object.field_archeological_site
     - field.field.node.object.field_code
-    - field.field.node.object.field_cr
-    - field.field.node.object.field_cx
-    - field.field.node.object.field_cy
+    - field.field.node.object.field_commune
     - field.field.node.object.field_image
     - field.field.node.object.field_material
+    - field.field.node.object.field_province
     - field.field.node.object.field_showcase
     - field.field.node.object.field_video
     - node.type.object
@@ -36,12 +37,13 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_3d: true
+  field_archeological_site: true
   field_code: true
-  field_cr: true
-  field_cx: true
-  field_cy: true
+  field_commune: true
   field_image: true
   field_material: true
+  field_province: true
   field_showcase: true
   field_video: true
   langcode: true

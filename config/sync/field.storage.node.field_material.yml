@@ -1,24 +1,18 @@
-uuid: 40dd0b17-d39d-4ce6-abf1-1bb07fe55898
+uuid: 5a96b003-b1aa-4089-8923-71d984d99593
 langcode: es
 status: true
 dependencies:
   module:
     - node
-    - options
 id: node.field_material
 field_name: field_material
 entity_type: node
-type: list_integer
+type: string
 settings:
-  allowed_values:
-    -
-      value: 0
-      label: Otro
-    -
-      value: 1
-      label: Arcilla
-  allowed_values_function: ''
-module: options
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

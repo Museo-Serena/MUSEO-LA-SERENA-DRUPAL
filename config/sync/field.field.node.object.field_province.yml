@@ -1,16 +1,16 @@
-uuid: a9dea5a8-acef-4ebb-8325-af034f36ab57
+uuid: 7cee22bb-7dae-44e2-9c4b-eb57c4596adb
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_cy
+    - field.storage.node.field_province
     - node.type.object
-id: node.object.field_cy
-field_name: field_cy
+id: node.object.field_province
+field_name: field_province
 entity_type: node
 bundle: object
-label: Cy
-description: 'Coordenada Y del objeto'
+label: Province
+description: ''
 required: true
 translatable: false
 default_value: {  }

@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.cedula.body
     - field.field.node.cedula.field_3d
     - field.field.node.cedula.field_comuna
-    - field.field.node.cedula.field_material
     - field.field.node.cedula.field_numero_inventario
     - field.field.node.cedula.field_provincia
     - field.field.node.cedula.field_sitio_arqueologico
@@ -40,12 +39,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
-  field_material:
-    weight: 2
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
   field_numero_inventario:
     weight: 1

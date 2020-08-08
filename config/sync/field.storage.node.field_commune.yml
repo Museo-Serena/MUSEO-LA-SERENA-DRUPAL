@@ -1,15 +1,15 @@
-uuid: f275c811-582c-4854-85da-0cdaf74ee73d
+uuid: 95f0d3f5-566b-4522-8351-4c2c94138421
 langcode: es
 status: true
 dependencies:
   module:
     - node
-id: node.field_cr
-field_name: field_cr
+id: node.field_commune
+field_name: field_commune
 entity_type: node
 type: string
 settings:
-  max_length: 6
+  max_length: 255
   is_ascii: false
   case_sensitive: false
 module: core

@@ -4,12 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.object.body
+    - field.field.node.object.field_3d
+    - field.field.node.object.field_archeological_site
     - field.field.node.object.field_code
-    - field.field.node.object.field_cr
-    - field.field.node.object.field_cx
-    - field.field.node.object.field_cy
+    - field.field.node.object.field_commune
     - field.field.node.object.field_image
     - field.field.node.object.field_material
+    - field.field.node.object.field_province
     - field.field.node.object.field_showcase
     - field.field.node.object.field_video
     - image.style.thumbnail
@@ -40,6 +41,21 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_3d:
+    weight: 10
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_archeological_site:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_code:
     weight: 2
     settings:
@@ -47,26 +63,10 @@ content:
     third_party_settings: {  }
     type: number
     region: content
-  field_cr:
-    weight: 9
+  field_commune:
+    weight: 6
     settings:
-      size: 10
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_cx:
-    weight: 7
-    settings:
-      size: 10
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_cy:
-    weight: 8
-    settings:
-      size: 10
+      size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
@@ -81,12 +81,22 @@ content:
     region: content
   field_material:
     weight: 3
-    settings: {  }
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: string_textfield
+    region: content
+  field_province:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_showcase:
-    weight: 10
+    weight: 8
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -96,7 +106,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_video:
-    weight: 5
+    weight: 9
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
