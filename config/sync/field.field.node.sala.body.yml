@@ -1,0 +1,23 @@
+uuid: 4ea0a3e2-19cf-4262-816b-0d4a242534f7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sala
+  module:
+    - text
+id: node.sala.body
+field_name: body
+entity_type: node
+bundle: sala
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

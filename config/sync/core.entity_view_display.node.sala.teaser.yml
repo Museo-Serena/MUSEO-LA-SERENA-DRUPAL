@@ -1,0 +1,31 @@
+uuid: c5398e24-4d1a-45e7-a3b7-99c8cb15582b
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sala.body
+    - node.type.sala
+  module:
+    - text
+    - user
+id: node.sala.teaser
+targetEntityType: node
+bundle: sala
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: a39d19b5-6500-4da4-bd27-49f8a7782784
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.sala.body
+    - node.type.sala
+  module:
+    - text
+    - user
+id: node.sala.default
+targetEntityType: node
+bundle: sala
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

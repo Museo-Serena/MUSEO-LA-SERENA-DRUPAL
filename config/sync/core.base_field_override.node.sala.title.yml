@@ -1,0 +1,18 @@
+uuid: 68874e1d-d0b0-43d1-a5ec-37f9cdeb43d3
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.sala
+id: node.sala.title
+field_name: title
+entity_type: node
+bundle: sala
+label: name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

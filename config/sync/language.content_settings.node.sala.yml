@@ -1,0 +1,11 @@
+uuid: 6d63ea92-47bc-4fd7-a081-739d0c4ebfbe
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.sala
+id: node.sala
+target_entity_type_id: node
+target_bundle: sala
+default_langcode: site_default
+language_alterable: false
