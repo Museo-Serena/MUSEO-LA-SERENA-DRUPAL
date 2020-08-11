@@ -1,0 +1,11 @@
+uuid: 63c0459c-8bfa-4d00-8b6a-0166114a2a31
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.imagenes_vitrina
+id: node.imagenes_vitrina
+target_entity_type_id: node
+target_bundle: imagenes_vitrina
+default_langcode: site_default
+language_alterable: false

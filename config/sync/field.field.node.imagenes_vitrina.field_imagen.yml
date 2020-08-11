@@ -1,0 +1,38 @@
+uuid: 0f938aec-3518-48de-b511-98fdb3fe8b8f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen
+    - node.type.imagenes_vitrina
+  module:
+    - image
+id: node.imagenes_vitrina.field_imagen
+field_name: field_imagen
+entity_type: node
+bundle: imagenes_vitrina
+label: Imagen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: imagenes_vitrina/imagenes
+  file_extensions: 'png jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

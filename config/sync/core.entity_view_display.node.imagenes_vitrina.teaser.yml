@@ -1,0 +1,35 @@
+uuid: 1916fd75-7b55-497e-9135-9af187f36c61
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.imagenes_vitrina.body
+    - field.field.node.imagenes_vitrina.field_imagen
+    - field.field.node.imagenes_vitrina.field_vitrina
+    - node.type.imagenes_vitrina
+  module:
+    - text
+    - user
+id: node.imagenes_vitrina.teaser
+targetEntityType: node
+bundle: imagenes_vitrina
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_imagen: true
+  field_vitrina: true
+  langcode: true

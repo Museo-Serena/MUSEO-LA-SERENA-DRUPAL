@@ -1,0 +1,18 @@
+uuid: 75032a50-d24c-45ea-a534-6c5a9dc319b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.imagenes_vitrina
+id: node.imagenes_vitrina.title
+field_name: title
+entity_type: node
+bundle: imagenes_vitrina
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

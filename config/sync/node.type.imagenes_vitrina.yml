@@ -1,0 +1,17 @@
+uuid: bc49fe48-5f88-40c5-9ed4-1751d9c6f9d4
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Imagenes Vitrina'
+type: imagenes_vitrina
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

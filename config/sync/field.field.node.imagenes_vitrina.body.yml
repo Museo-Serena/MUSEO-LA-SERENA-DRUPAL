@@ -1,0 +1,23 @@
+uuid: c4310085-c816-40e8-b20f-8bc2fe7ab1e3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.imagenes_vitrina
+  module:
+    - text
+id: node.imagenes_vitrina.body
+field_name: body
+entity_type: node
+bundle: imagenes_vitrina
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
