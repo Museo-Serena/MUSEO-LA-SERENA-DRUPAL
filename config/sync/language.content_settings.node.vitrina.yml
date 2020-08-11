@@ -1,0 +1,11 @@
+uuid: 8cbf1024-1d48-4050-9959-4badadfa610e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.vitrina
+id: node.vitrina
+target_entity_type_id: node
+target_bundle: vitrina
+default_langcode: site_default
+language_alterable: false

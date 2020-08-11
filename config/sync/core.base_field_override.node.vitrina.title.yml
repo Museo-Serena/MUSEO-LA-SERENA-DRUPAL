@@ -1,13 +1,13 @@
-uuid: 68874e1d-d0b0-43d1-a5ec-37f9cdeb43d3
+uuid: 04778edf-767d-4626-bed7-28002dea8bc7
 langcode: es
 status: true
 dependencies:
   config:
-    - node.type.sala
-id: node.sala.title
+    - node.type.vitrina
+id: node.vitrina.title
 field_name: title
 entity_type: node
-bundle: sala
+bundle: vitrina
 label: Name
 description: ''
 required: true

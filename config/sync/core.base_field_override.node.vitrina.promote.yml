@@ -1,0 +1,22 @@
+uuid: 7f622d5c-20f3-443a-95d5-f67d3c310626
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.vitrina
+id: node.vitrina.promote
+field_name: promote
+entity_type: node
+bundle: vitrina
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

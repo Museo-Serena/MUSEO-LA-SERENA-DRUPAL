@@ -1,0 +1,38 @@
+uuid: 1e6b00f6-295d-4186-b089-cc8b20422f7c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.vitrina.body
+    - field.field.node.vitrina.field_sala
+    - node.type.vitrina
+  module:
+    - text
+    - user
+id: node.vitrina.default
+targetEntityType: node
+bundle: vitrina
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_sala:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: f4ad4034-5e1e-4083-b04a-c326cf27238d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.vitrina
+  module:
+    - text
+id: node.vitrina.body
+field_name: body
+entity_type: node
+bundle: vitrina
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

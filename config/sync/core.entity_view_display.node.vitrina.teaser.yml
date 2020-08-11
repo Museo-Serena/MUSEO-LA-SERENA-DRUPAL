@@ -1,0 +1,33 @@
+uuid: d4019100-1d73-4202-a426-b56005c347cf
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vitrina.body
+    - field.field.node.vitrina.field_sala
+    - node.type.vitrina
+  module:
+    - text
+    - user
+id: node.vitrina.teaser
+targetEntityType: node
+bundle: vitrina
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_sala: true
+  langcode: true
