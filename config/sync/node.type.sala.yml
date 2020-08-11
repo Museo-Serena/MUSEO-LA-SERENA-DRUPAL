@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Sala
 type: sala
-description: ''
+description: 'Entidad que exibirá las vitrinas.'
 help: ''
 new_revision: false
 preview_mode: 1
