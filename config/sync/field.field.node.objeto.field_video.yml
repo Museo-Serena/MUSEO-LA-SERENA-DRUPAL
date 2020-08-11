@@ -1,0 +1,27 @@
+uuid: 3c2be13a-495d-4b15-8046-93a3c6b2d739
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.objeto
+  module:
+    - file
+id: node.objeto.field_video
+field_name: field_video
+entity_type: node
+bundle: objeto
+label: Video
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: objeto/videos
+  file_extensions: mp4
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,17 @@
+uuid: abdd8440-7b6f-4852-8821-654a4a404552
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Objeto
+type: objeto
+description: 'Objeto que se presentará en la cédula'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,11 @@
+uuid: 775471b9-a120-4e88-a816-726620b15568
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.objeto
+id: node.objeto
+target_entity_type_id: node
+target_bundle: objeto
+default_langcode: site_default
+language_alterable: false

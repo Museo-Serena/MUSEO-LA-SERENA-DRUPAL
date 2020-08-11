@@ -1,0 +1,23 @@
+uuid: 7f67e9cc-60db-4a11-a29b-a6a6e7b83730
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.objeto
+  module:
+    - text
+id: node.objeto.body
+field_name: body
+entity_type: node
+bundle: objeto
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

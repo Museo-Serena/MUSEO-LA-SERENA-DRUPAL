@@ -1,0 +1,19 @@
+uuid: 6d590ea8-bf72-49b9-9616-636c406c3ab0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comuna
+    - node.type.objeto
+id: node.objeto.field_comuna
+field_name: field_comuna
+entity_type: node
+bundle: objeto
+label: Comuna
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

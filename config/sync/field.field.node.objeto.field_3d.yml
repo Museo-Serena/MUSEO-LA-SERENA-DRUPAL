@@ -1,0 +1,27 @@
+uuid: bf4d9458-987d-4b6c-a3a1-4943364e1725
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_3d
+    - node.type.objeto
+  module:
+    - file
+id: node.objeto.field_3d
+field_name: field_3d
+entity_type: node
+bundle: objeto
+label: 3D
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: objecto/3d
+  file_extensions: mp4
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,22 @@
+uuid: 3360c357-d44c-4a59-89ec-bdb97c39edf0
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.objeto
+id: node.objeto.promote
+field_name: promote
+entity_type: node
+bundle: objeto
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

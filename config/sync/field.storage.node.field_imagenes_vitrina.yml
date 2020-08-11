@@ -1,0 +1,19 @@
+uuid: c704dcbb-ad60-489c-a760-ee9ae2dc2e7e
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_imagenes_vitrina
+field_name: field_imagenes_vitrina
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

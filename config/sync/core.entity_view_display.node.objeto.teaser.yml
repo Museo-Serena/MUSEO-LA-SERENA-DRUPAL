@@ -1,0 +1,49 @@
+uuid: 7123623c-3f40-43c7-8d46-74e1c9ef47ee
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.objeto.body
+    - field.field.node.objeto.field_3d
+    - field.field.node.objeto.field_codigo
+    - field.field.node.objeto.field_comuna
+    - field.field.node.objeto.field_imagen
+    - field.field.node.objeto.field_imagenes_vitrina
+    - field.field.node.objeto.field_material
+    - field.field.node.objeto.field_provincia
+    - field.field.node.objeto.field_sitio_arqueologico
+    - field.field.node.objeto.field_video
+    - node.type.objeto
+  module:
+    - text
+    - user
+id: node.objeto.teaser
+targetEntityType: node
+bundle: objeto
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_3d: true
+  field_codigo: true
+  field_comuna: true
+  field_imagen: true
+  field_imagenes_vitrina: true
+  field_material: true
+  field_provincia: true
+  field_sitio_arqueologico: true
+  field_video: true
+  langcode: true
