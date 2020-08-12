@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.imagenes_vitrina.body
-    - field.field.node.imagenes_vitrina.field_imagen
+    - field.field.node.imagenes_vitrina.field_imagen_vitrina
     - field.field.node.imagenes_vitrina.field_vitrina
     - image.style.thumbnail
     - node.type.imagenes_vitrina
@@ -33,8 +33,8 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_imagen:
-    weight: 2
+  field_imagen_vitrina:
+    weight: 3
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -42,7 +42,7 @@ content:
     type: image_image
     region: content
   field_vitrina:
-    weight: 3
+    weight: 2
     settings:
       match_operator: CONTAINS
       match_limit: 10

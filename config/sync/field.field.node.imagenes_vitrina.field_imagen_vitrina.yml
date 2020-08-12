@@ -1,17 +1,17 @@
-uuid: 0f938aec-3518-48de-b511-98fdb3fe8b8f
+uuid: c63395ab-9809-42dd-b748-97b68d1d0cfa
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_imagen
+    - field.storage.node.field_imagen_vitrina
     - node.type.imagenes_vitrina
   module:
     - image
-id: node.imagenes_vitrina.field_imagen
-field_name: field_imagen
+id: node.imagenes_vitrina.field_imagen_vitrina
+field_name: field_imagen_vitrina
 entity_type: node
 bundle: imagenes_vitrina
-label: Imagen
+label: 'Imagen vitrina'
 description: ''
 required: false
 translatable: false

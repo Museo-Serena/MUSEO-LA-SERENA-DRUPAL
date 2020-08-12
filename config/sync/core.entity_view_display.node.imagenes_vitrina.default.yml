@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.imagenes_vitrina.body
-    - field.field.node.imagenes_vitrina.field_imagen
+    - field.field.node.imagenes_vitrina.field_imagen_vitrina
     - field.field.node.imagenes_vitrina.field_vitrina
     - node.type.imagenes_vitrina
   module:
@@ -23,8 +23,8 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_imagen:
-    weight: 102
+  field_imagen_vitrina:
+    weight: 104
     label: above
     settings:
       image_style: ''
