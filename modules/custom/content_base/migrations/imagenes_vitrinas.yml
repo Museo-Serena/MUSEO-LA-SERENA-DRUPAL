@@ -1,0 +1,18 @@
+id: imagenes_vitrinas
+label: "Imagenes vitrina"
+migration_tags:
+  - Imagenes vitrina list
+  - Content
+source:
+  plugin: csv
+  path: modules/custom/content_base/sources/imagenes_vitrinas.csv
+  ids: [id]
+process:
+  title: name
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: "entity:node"
+  default_bundle: imagenes_vitrina
+migration_dependencies: {}

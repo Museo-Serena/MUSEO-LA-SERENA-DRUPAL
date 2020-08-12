@@ -1,0 +1,18 @@
+id: objetos
+label: "Objetos"
+migration_tags:
+  - Objetos list
+  - Content
+source:
+  plugin: csv
+  path: modules/custom/content_base/sources/objetos.csv
+  ids: [id]
+process:
+  title: name
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: "entity:node"
+  default_bundle: objeto
+migration_dependencies: {}
