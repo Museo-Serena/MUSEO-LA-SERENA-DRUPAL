@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.objeto.field_3d
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
+    - field.field.node.objeto.field_cx
+    - field.field.node.objeto.field_cy
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_imagenes_vitrina
     - field.field.node.objeto.field_material
@@ -49,6 +51,22 @@ content:
     region: content
   field_comuna:
     weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cx:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cy:
+    weight: 112
     label: above
     settings:
       link_to_entity: false

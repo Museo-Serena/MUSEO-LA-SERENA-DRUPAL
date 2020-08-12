@@ -1,0 +1,21 @@
+uuid: 3c18ca50-ec81-4a54-9464-1bb308e0d2c6
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_cy
+field_name: field_cy
+entity_type: node
+type: string
+settings:
+  max_length: 4
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
