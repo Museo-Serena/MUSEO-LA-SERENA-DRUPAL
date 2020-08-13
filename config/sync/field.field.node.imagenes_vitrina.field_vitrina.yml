@@ -12,7 +12,7 @@ entity_type: node
 bundle: imagenes_vitrina
 label: Vitrina
 description: 'Imágenes de tendrá la Vitrina'
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

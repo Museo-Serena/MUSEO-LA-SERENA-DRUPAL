@@ -12,7 +12,7 @@ entity_type: node
 bundle: objeto
 label: 'Imágenes vitrina'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
