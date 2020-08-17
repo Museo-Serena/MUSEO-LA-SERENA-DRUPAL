@@ -32,7 +32,7 @@ class EntityLookupTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->installSchema('system', ['sequences']);
     $this->installEntitySchema('user');
@@ -46,7 +46,7 @@ class EntityLookupTest extends KernelTestBase {
    *
    * @covers ::transform
    */
-  public function testLookupEntityWithoutBundles(): void {
+  public function testLookupEntityWithoutBundles() {
     // Create a user.
     $known_user = $this->createUser([], 'lucuma');
     // Setup test migration objects.

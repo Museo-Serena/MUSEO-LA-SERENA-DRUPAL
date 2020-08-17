@@ -58,7 +58,7 @@ class FileBlobTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
 
     $this->pluginManager = $this->container->get('plugin.manager.migrate.process');
@@ -200,7 +200,7 @@ EOT;
    *
    * @covers ::transform
    */
-  public function testFileCreation(): void {
+  public function testFileCreation() {
     /** @var \Drupal\migrate\MigrateExecutableInterface $executable */
     $executable = $this->prophesize(MigrateExecutableInterface::class)->reveal();
     $row = new Row([], []);

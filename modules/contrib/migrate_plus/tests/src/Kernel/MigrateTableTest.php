@@ -39,7 +39,7 @@ class MigrateTableTest extends MigrateTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
 
     $this->connection = $this->container->get('database');
@@ -98,7 +98,7 @@ class MigrateTableTest extends MigrateTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function tearDown(): void {
+  protected function tearDown() {
     $this->sourceDatabase->schema()->dropTable(static::SOURCE_TABLE_NAME);
     $this->connection->schema()->dropTable(static::DEST_TABLE_NAME);
     parent::tearDown();
@@ -157,7 +157,7 @@ class MigrateTableTest extends MigrateTestBase {
   /**
    * Tests table migration.
    */
-  public function testTableMigration(): void {
+  public function testTableMigration() {
     $definition = [
       'id' => 'migration_table_test',
       'migration_tags' => ['Testing'],
@@ -214,7 +214,7 @@ class MigrateTableTest extends MigrateTestBase {
    *
    * @dataProvider tableDestinationMigration
    */
-  public function testTableUpdate(array $definition): void {
+  public function testTableUpdate(array $definition) {
     // Make sure migration overwrites the original data for the first row.
     $original_values = [
       'data' => 'dummy value',

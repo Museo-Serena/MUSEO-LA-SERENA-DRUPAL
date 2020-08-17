@@ -39,7 +39,7 @@ class LoadTest extends BrowserTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->user = $this->drupalCreateUser(['administer site configuration']);
     $this->drupalLogin($this->user);
@@ -48,7 +48,7 @@ class LoadTest extends BrowserTestBase {
   /**
    * Tests that the home page loads with a 200 response.
    */
-  public function testLoad(): void {
+  public function testLoad() {
     $this->drupalGet(Url::fromRoute('<front>'));
     $this->assertSession()->statusCodeEquals(200);
   }

@@ -83,14 +83,14 @@ class FileTest extends MigrateTestCase {
   /**
    * Set up test environment.
    */
-  public function setUp(): void {
+  public function setUp() {
     $this->baseDir = vfsStream::setup(self::BASE_DIRECTORY);
   }
 
   /**
    * Test fetching a valid file.
    */
-  public function testFetchFile(): void {
+  public function testFetchFile() {
     $file_name = 'file.json';
     $file_path = vfsStream::url(implode(DIRECTORY_SEPARATOR, [self::BASE_DIRECTORY, $file_name]));
     $migration_config = $this->specificMigrationConfig + [
@@ -118,7 +118,7 @@ class FileTest extends MigrateTestCase {
   /**
    * Test fetching multiple valid files.
    */
-  public function testFetchMultipleFiles(): void {
+  public function testFetchMultipleFiles() {
     $number_of_files = 3;
     $file_paths = [];
     $file_names = [];
@@ -159,7 +159,7 @@ class FileTest extends MigrateTestCase {
   /**
    * Test trying to fetch an unreadable file results in exception.
    */
-  public function testFetchUnreadableFile(): void {
+  public function testFetchUnreadableFile() {
     $file_name = 'file.json';
     $file_path = vfsStream::url(implode(DIRECTORY_SEPARATOR, [self::BASE_DIRECTORY, $file_name]));
     $migration_config = $this->specificMigrationConfig + [

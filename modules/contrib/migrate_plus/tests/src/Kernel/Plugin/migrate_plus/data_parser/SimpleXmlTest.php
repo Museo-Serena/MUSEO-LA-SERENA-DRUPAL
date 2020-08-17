@@ -48,7 +48,7 @@ class SimpleXmlTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->path = $this->container->get('module_handler')
       ->getModule('migrate_plus')->getPath();
@@ -89,7 +89,7 @@ class SimpleXmlTest extends KernelTestBase {
   /**
    * Tests reducing single values.
    */
-  public function testReduceSingleValue(): void {
+  public function testReduceSingleValue() {
     $url = $this->path . '/tests/data/simple_xml_reduce_single_value.xml';
     $this->configuration['urls'][0] = $url;
     $parser = $this->pluginManager->createInstance('simple_xml', $this->configuration);
@@ -101,7 +101,7 @@ class SimpleXmlTest extends KernelTestBase {
    *
    * XML file with lots of different white spaces before the starting tag.
    */
-  public function testReadNonStandardXmlWhitespace(): void {
+  public function testReadNonStandardXmlWhitespace() {
     $url = $this->path . '/tests/data/simple_xml_invalid_multi_whitespace.xml';
     $this->configuration['urls'][0] = $url;
 
@@ -114,7 +114,7 @@ class SimpleXmlTest extends KernelTestBase {
    *
    * XML file with one empty line before the starting tag.
    */
-  public function testReadNonStandardXml2(): void {
+  public function testReadNonStandardXml2() {
     $url = $this->path . '/tests/data/simple_xml_invalid_single_line.xml';
     $this->configuration['urls'][0] = $url;
 
@@ -127,7 +127,7 @@ class SimpleXmlTest extends KernelTestBase {
    *
    * @throws \Drupal\Migrate\MigrateException
    */
-  public function testReadBrokenXmlMissingTag(): void {
+  public function testReadBrokenXmlMissingTag() {
     $url = $this->path . '/tests/data/simple_xml_broken_missing_tag.xml';
     $this->configuration['urls'][0] = $url;
     $this->expectException(MigrateException::class);
@@ -141,7 +141,7 @@ class SimpleXmlTest extends KernelTestBase {
    *
    * @throws \Drupal\Migrate\MigrateException
    */
-  public function testReadBrokenXmlTagMismatch(): void {
+  public function testReadBrokenXmlTagMismatch() {
     $url = $this->path . '/tests/data/simple_xml_broken_tag_mismatch.xml';
     $this->configuration['urls'][0] = $url;
 
@@ -157,7 +157,7 @@ class SimpleXmlTest extends KernelTestBase {
    *
    * @throws \Drupal\Migrate\MigrateException
    */
-  public function testReadNonXml(): void {
+  public function testReadNonXml() {
     $url = $this->path . '/tests/data/simple_xml_non_xml.xml';
     $this->configuration['urls'][0] = $url;
 
@@ -172,7 +172,7 @@ class SimpleXmlTest extends KernelTestBase {
    *
    * @throws \Drupal\Migrate\MigrateException
    */
-  public function testReadNonExistingXml(): void {
+  public function testReadNonExistingXml() {
     $url = $this->path . '/tests/data/simple_xml_non_existing.xml';
     $this->configuration['urls'][0] = $url;
 

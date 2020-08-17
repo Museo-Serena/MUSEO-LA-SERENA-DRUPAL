@@ -1,10 +1,10 @@
-uuid: ac967423-e08e-4692-ad9b-ec4260f398b7
+uuid: 3a83c310-dd7d-4c84-8718-3017a046a733
 langcode: es
 status: true
 dependencies: {  }
 id: default
 label: Default
 description: 'A container for any migrations not explicitly assigned to a group.'
-source_type: ''
+source_type: 'Drupal 8'
 module: null
 shared_configuration: null

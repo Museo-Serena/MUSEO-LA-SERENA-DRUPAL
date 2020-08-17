@@ -19,7 +19,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::process
    */
-  public function testProcessSkipsOnValue(): void {
+  public function testProcessSkipsOnValue() {
     $configuration['method'] = 'process';
     $configuration['value'] = 86;
     $this->expectException(MigrateSkipProcessException::class);
@@ -30,7 +30,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::process
    */
-  public function testProcessSkipsOnMultipleValue(): void {
+  public function testProcessSkipsOnMultipleValue() {
     $configuration['method'] = 'process';
     $configuration['value'] = [1, 1, 2, 3, 5, 8];
     $this->expectException(MigrateSkipProcessException::class);
@@ -41,7 +41,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::process
    */
-  public function testProcessBypassesOnNonValue(): void {
+  public function testProcessBypassesOnNonValue() {
     $configuration['method'] = 'process';
     $configuration['value'] = 'sourcevalue';
     $configuration['not_equals'] = TRUE;
@@ -57,7 +57,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::process
    */
-  public function testProcessSkipsOnMultipleNonValue(): void {
+  public function testProcessSkipsOnMultipleNonValue() {
     $configuration['method'] = 'process';
     $configuration['value'] = [1, 1, 2, 3, 5, 8];
     $value = (new SkipOnValue($configuration, 'skip_on_value', []))
@@ -68,7 +68,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::process
    */
-  public function testProcessBypassesOnMultipleNonValue(): void {
+  public function testProcessBypassesOnMultipleNonValue() {
     $configuration['method'] = 'process';
     $configuration['value'] = [1, 1, 2, 3, 5, 8];
     $configuration['not_equals'] = TRUE;
@@ -83,7 +83,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::row
    */
-  public function testRowBypassesOnMultipleNonValue(): void {
+  public function testRowBypassesOnMultipleNonValue() {
     $configuration['method'] = 'row';
     $configuration['value'] = [1, 1, 2, 3, 5, 8];
     $configuration['not_equals'] = TRUE;
@@ -98,7 +98,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::row
    */
-  public function testRowSkipsOnValue(): void {
+  public function testRowSkipsOnValue() {
     $configuration['method'] = 'row';
     $configuration['value'] = 86;
     $this->expectException(MigrateSkipRowException::class);
@@ -109,7 +109,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::row
    */
-  public function testRowBypassesOnNonValue(): void {
+  public function testRowBypassesOnNonValue() {
     $configuration['method'] = 'row';
     $configuration['value'] = 'sourcevalue';
     $configuration['not_equals'] = TRUE;
@@ -125,7 +125,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::row
    */
-  public function testRequiredRowConfiguration(): void {
+  public function testRequiredRowConfiguration() {
     $configuration['method'] = 'row';
     $this->expectException(MigrateException::class);
     (new SkipOnValue($configuration, 'skip_on_value', []))
@@ -135,7 +135,7 @@ class SkipOnValueTest extends MigrateProcessTestCase {
   /**
    * @covers ::process
    */
-  public function testRequiredProcessConfiguration(): void {
+  public function testRequiredProcessConfiguration() {
     $configuration['method'] = 'process';
     $this->expectException(MigrateException::class);
     (new SkipOnValue($configuration, 'skip_on_value', []))

@@ -14,7 +14,7 @@ class MultipleValuesTest extends MigrateProcessTestCase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     $this->plugin = new MultipleValues([], 'multiple_values', []);
     parent::setUp();
   }
@@ -22,7 +22,7 @@ class MultipleValuesTest extends MigrateProcessTestCase {
   /**
    * Test input treated as multiple value output.
    */
-  public function testTreatAsMultiple(): void {
+  public function testTreatAsMultiple() {
     $value = ['v1', 'v2', 'v3'];
     $output = $this->plugin->transform($value, $this->migrateExecutable, $this->row, 'destinationproperty');
     $this->assertSame($output, $value);

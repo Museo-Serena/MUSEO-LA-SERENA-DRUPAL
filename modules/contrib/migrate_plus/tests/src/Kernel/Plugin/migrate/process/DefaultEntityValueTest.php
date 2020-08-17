@@ -32,7 +32,7 @@ class DefaultEntityValueTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->installSchema('system', ['sequences']);
     $this->installEntitySchema('user');
@@ -43,7 +43,7 @@ class DefaultEntityValueTest extends KernelTestBase {
    *
    * @covers ::transform
    */
-  public function testDefaultEntityValue(): void {
+  public function testDefaultEntityValue() {
     // Create a user.
     $editorial_user = $this->createUser([], 'editorial');
     $journalist_user = $this->createUser([], 'journalist');

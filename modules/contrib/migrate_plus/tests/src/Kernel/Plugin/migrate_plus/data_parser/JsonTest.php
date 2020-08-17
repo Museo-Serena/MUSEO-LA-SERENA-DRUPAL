@@ -33,7 +33,7 @@ class JsonTest extends KernelTestBase {
    * @throws \Drupal\Component\Plugin\Exception\PluginException
    * @throws \Exception
    */
-  public function testMissingProperties($file, array $ids, array $fields, array $expected): void {
+  public function testMissingProperties($file, array $ids, array $fields, array $expected) {
     $path = $this->container
       ->get('module_handler')
       ->getModule('migrate_plus')
@@ -69,7 +69,7 @@ class JsonTest extends KernelTestBase {
    * @return array
    *   The test cases.
    */
-  public function jsonBaseDataProvider(): array {
+  public function jsonBaseDataProvider() {
     return [
       'missing properties' => [
         'file' => 'missing_properties.json',

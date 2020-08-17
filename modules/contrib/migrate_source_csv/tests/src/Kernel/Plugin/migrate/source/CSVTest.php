@@ -29,7 +29,7 @@ class CSVTest extends MigrateTestBase {
   /**
    * Tests execution of a migration sourced from CSV.
    */
-  public function testMigrate(): void {
+  public function testMigrate() {
     $this->installEntitySchema('user');
     $this->installEntitySchema('node');
     $this->installConfig(['migrate_source_csv_test']);

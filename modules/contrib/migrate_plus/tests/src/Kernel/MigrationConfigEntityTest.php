@@ -37,7 +37,7 @@ class MigrationConfigEntityTest extends MigrateTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->pluginManager = \Drupal::service('plugin.manager.migration');
     $this->installConfig('migrate_plus');
@@ -48,7 +48,7 @@ class MigrationConfigEntityTest extends MigrateTestBase {
   /**
    * Tests cache invalidation.
    */
-  public function testCacheInvalidation(): void {
+  public function testCacheInvalidation() {
     $config = Migration::create([
       'id' => 'test',
       'status' => TRUE,
@@ -77,7 +77,7 @@ class MigrationConfigEntityTest extends MigrateTestBase {
   /**
    * Tests migration status.
    */
-  public function testMigrationStatus(): void {
+  public function testMigrationStatus() {
     $configs = [
       [
         'id' => 'test_active',
@@ -115,7 +115,7 @@ class MigrationConfigEntityTest extends MigrateTestBase {
   /**
    * Tests migration from configuration.
    */
-  public function testImport(): void {
+  public function testImport() {
     $this->installConfig('migrate_plus_test');
     /** @var \Drupal\migrate\Plugin\MigrationInterface $migration */
     $migration = $this->pluginManager->createInstance('fruit_terms');

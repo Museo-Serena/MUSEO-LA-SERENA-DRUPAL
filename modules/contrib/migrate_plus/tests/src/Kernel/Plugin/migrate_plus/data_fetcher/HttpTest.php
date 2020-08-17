@@ -18,7 +18,7 @@ class HttpTest extends KernelTestBase {
    *
    * @dataProvider headerDataProvider
    */
-  public function testHttpHeaders(array $definition, array $expected, array $preSeed = []): void {
+  public function testHttpHeaders(array $definition, array $expected, array $preSeed = []) {
     $http = new Http($definition, 'http', []);
     $this->assertEquals($expected, $http->getRequestHeaders());
   }
@@ -29,7 +29,7 @@ class HttpTest extends KernelTestBase {
    * @return array
    *   The test cases
    */
-  public function headerDataProvider(): array {
+  public function headerDataProvider() {
     return [
       'dummy headers specified' => [
         'definition' => [

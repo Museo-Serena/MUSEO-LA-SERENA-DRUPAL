@@ -21,7 +21,7 @@ class MigrationGroupTest extends KernelTestBase {
   /**
    * Test that group configuration is properly merged into specific migrations.
    */
-  public function testConfigurationMerge(): void {
+  public function testConfigurationMerge() {
     $group_id = 'test_group';
 
     /** @var \Drupal\migrate_plus\Entity\MigrationGroupInterface $migration_group */
@@ -96,7 +96,7 @@ class MigrationGroupTest extends KernelTestBase {
   /**
    * Test that deleting a group deletes its migrations.
    */
-  public function testDelete(): void {
+  public function testDelete() {
     /** @var \Drupal\migrate_plus\Entity\MigrationGroupInterface $migration_group */
     $group_configuration = [
       'id' => 'test_group',
@@ -130,7 +130,7 @@ class MigrationGroupTest extends KernelTestBase {
   /**
    * Test that migrations without a group are assigned to the default group.
    */
-  public function testDefaultGroup(): void {
+  public function testDefaultGroup() {
     $this->installConfig('migrate_plus_test');
 
     /** @var \Drupal\migrate\Plugin\MigrationPluginManagerInterface $pluginManager */

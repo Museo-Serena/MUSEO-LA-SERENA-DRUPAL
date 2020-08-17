@@ -50,7 +50,7 @@ class EntityLookupAccessTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->installSchema('system', ['sequences']);
     $this->installEntitySchema('entity_test');
@@ -64,7 +64,7 @@ class EntityLookupAccessTest extends KernelTestBase {
   /**
    * Tests that access is honored for entity lookups.
    */
-  public function testEntityLookupAccessCheck(): void {
+  public function testEntityLookupAccessCheck() {
     $definition = [
       'source' => [
         'plugin' => 'embedded_data',
