@@ -1,3 +1,2 @@
-"id","name"
-15,"Imagen Vitrina 02_1_A"
-16,"Imagen Vitrina 03_1_A"
+ID,title,IDVitrina,imagen
+306,"Imagen Vitrina 306",2000,"imagen_vitrina.png"

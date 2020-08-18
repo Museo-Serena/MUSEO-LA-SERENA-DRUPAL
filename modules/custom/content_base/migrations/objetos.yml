@@ -6,13 +6,45 @@ migration_tags:
 source:
   plugin: csv
   path: modules/custom/content_base/sources/objetos.csv
-  ids: [id]
+  delimiter: ","
+  enclosure: '"'
+  header_row_count: 1
+  ids: [ID]
 process:
-  title: name
+  type:
+    plugin: default_value
+    default_value: objeto #content type name we will create
+  nid: ID
+  title: title
+  body: masInfo
+  field_imagenes_vitrina/target_id: IDImagenVitrina
+  field_codigo: codigo
+  field_material: material
+  field_sitio_arqueologico: sitio
+  field_comuna: comuna
+  field_provincia: provincia
+  "field_imagen/target_id":
+    - plugin: migration
+      migration: objetos_images #previously defined migration for uploading image files
+      source: imagenes
+  "field_video/target_id":
+    - plugin: migration
+      migration: objetos_videos
+      source: video
+  "field_3d/target_id":
+    - plugin: migration
+      migration: objetos_3d
+      source: video3d
+  field_cx: cx
+  field_cy: cy
+  field_cr: cr
   uid:
     plugin: default_value
     default_value: 1
 destination:
   plugin: "entity:node"
-  default_bundle: objeto
-migration_dependencies: {}
+migration_dependencies:
+  optional:
+    - objetos_images #this is optional, you do not need to insert this, but the name must be the same as the migration id for images
+    - objetos_videos
+    - objetos_3d

@@ -6,13 +6,27 @@ migration_tags:
 source:
   plugin: csv
   path: modules/custom/content_base/sources/imagenes_vitrinas.csv
-  ids: [id]
+  delimiter: ","
+  enclosure: '"'
+  header_row_count: 1
+  ids: [ID]
 process:
-  title: name
+  type:
+    plugin: default_value
+    default_value: imagenes_vitrina #content type name we will create
+  nid: ID
+  title: title
+  "field_imagen_vitrina/target_id":
+    -
+      plugin: migration
+      migration: imagenes_vitrinas_imagenes #previously defined migration for uploading image files
+      source: imagen
+  field_vitrina/target_id: IDVitrina
   uid:
     plugin: default_value
     default_value: 1
 destination:
   plugin: "entity:node"
-  default_bundle: imagenes_vitrina
-migration_dependencies: {}
+migration_dependencies:
+  optional:
+    - imagenes_vitrinas_imagenes #this is optional, you do not need to insert this, but the name must be the same as the migration id for images

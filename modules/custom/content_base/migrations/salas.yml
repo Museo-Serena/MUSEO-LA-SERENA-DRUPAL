@@ -6,9 +6,12 @@ migration_tags:
 source:
   plugin: csv
   path: modules/custom/content_base/sources/salas.csv
-  ids: [id]
+  delimiter: ","
+  enclosure: '"'
+  ids: [ID]
 process:
-  title: name
+  nid: ID
+  title: title
   uid:
     plugin: default_value
     default_value: 1

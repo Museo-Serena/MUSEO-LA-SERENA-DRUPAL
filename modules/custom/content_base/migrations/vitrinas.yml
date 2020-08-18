@@ -6,9 +6,13 @@ migration_tags:
 source:
   plugin: csv
   path: modules/custom/content_base/sources/vitrinas.csv
-  ids: [id]
+  delimiter: ","
+  enclosure: '"'
+  ids: [ID]
 process:
-  title: name
+  nid: ID
+  title: title
+  field_sala/target_id: IDSala
   uid:
     plugin: default_value
     default_value: 1
