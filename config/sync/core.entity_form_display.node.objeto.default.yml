@@ -8,9 +8,6 @@ dependencies:
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
     - field.field.node.objeto.field_coords
-    - field.field.node.objeto.field_cr
-    - field.field.node.objeto.field_cx
-    - field.field.node.objeto.field_cy
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_imagenes_vitrina
     - field.field.node.objeto.field_material
@@ -70,30 +67,6 @@ content:
     region: content
   field_coords:
     weight: 11
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_cr:
-    weight: 14
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_cx:
-    weight: 12
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_cy:
-    weight: 13
     settings:
       size: 60
       placeholder: ''
