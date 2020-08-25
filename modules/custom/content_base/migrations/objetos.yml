@@ -35,9 +35,22 @@ process:
     - plugin: migration
       migration: objetos_3d
       source: video3d
-  field_cx: cx
-  field_cy: cy
-  field_cr: cr
+  coords:
+    - plugin: skip_on_empty
+      source: coords
+      method: process
+    - plugin: explode
+      delimiter: ";"
+    - plugin: callback
+      callable: trim
+  field_coords:
+    - plugin: skip_on_empty
+      method: process
+      source: "@coords"
+    - plugin: deepen
+    - plugin: sub_process
+      process:
+        value: "value"
   uid:
     plugin: default_value
     default_value: 1
