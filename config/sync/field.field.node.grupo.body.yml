@@ -1,0 +1,23 @@
+uuid: 1d65cc74-731b-490d-a47e-a4a2b51c0eec
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.grupo
+  module:
+    - text
+id: node.grupo.body
+field_name: body
+entity_type: node
+bundle: grupo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

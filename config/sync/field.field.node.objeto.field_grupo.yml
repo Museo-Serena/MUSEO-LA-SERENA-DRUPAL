@@ -1,0 +1,28 @@
+uuid: b9e1358f-965a-4132-8699-2ec55e0d825e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_grupo
+    - node.type.grupo
+    - node.type.objeto
+id: node.objeto.field_grupo
+field_name: field_grupo
+entity_type: node
+bundle: objeto
+label: Grupo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      grupo: grupo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

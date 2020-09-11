@@ -1,0 +1,35 @@
+uuid: 57983329-ad4e-4c68-ad5a-e863498674fc
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.grupo.body
+    - field.field.node.grupo.field_coords
+    - field.field.node.grupo.field_imagenes_vitrina
+    - node.type.grupo
+  module:
+    - text
+    - user
+id: node.grupo.teaser
+targetEntityType: node
+bundle: grupo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_coords: true
+  field_imagenes_vitrina: true
+  langcode: true

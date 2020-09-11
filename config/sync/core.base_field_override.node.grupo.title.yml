@@ -1,0 +1,18 @@
+uuid: 980bbbc7-0891-40b4-bd51-f53c097345be
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.grupo
+id: node.grupo.title
+field_name: title
+entity_type: node
+bundle: grupo
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

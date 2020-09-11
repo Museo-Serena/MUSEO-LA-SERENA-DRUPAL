@@ -1,0 +1,22 @@
+uuid: bc0d11cb-a1f8-4008-ac98-cae9ee564e9e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.grupo
+id: node.grupo.promote
+field_name: promote
+entity_type: node
+bundle: grupo
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

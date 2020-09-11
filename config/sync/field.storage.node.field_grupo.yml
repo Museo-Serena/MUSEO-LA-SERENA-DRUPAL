@@ -1,0 +1,19 @@
+uuid: 98012665-2d15-4329-a564-06033e909cb7
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_grupo
+field_name: field_grupo
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

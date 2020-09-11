@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
     - field.field.node.objeto.field_coords
+    - field.field.node.objeto.field_grupo
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_imagenes_vitrina
     - field.field.node.objeto.field_material
@@ -42,6 +43,7 @@ hidden:
   field_codigo: true
   field_comuna: true
   field_coords: true
+  field_grupo: true
   field_imagen: true
   field_imagenes_vitrina: true
   field_material: true

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
     - field.field.node.objeto.field_coords
+    - field.field.node.objeto.field_grupo
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_imagenes_vitrina
     - field.field.node.objeto.field_material
@@ -38,7 +39,7 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 17
+    weight: 15
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -72,6 +73,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_grupo:
+    weight: 12
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_imagen:
     weight: 4
@@ -124,14 +135,14 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 15
+    weight: 13
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 20
+    weight: 18
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -139,21 +150,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 18
+    weight: 16
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 21
+    weight: 19
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 19
+    weight: 17
     region: content
     third_party_settings: {  }
   title:
@@ -166,7 +177,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 16
+    weight: 14
     settings:
       match_operator: CONTAINS
       size: 60

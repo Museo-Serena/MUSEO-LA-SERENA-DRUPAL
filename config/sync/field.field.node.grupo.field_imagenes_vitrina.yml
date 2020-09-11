@@ -1,0 +1,28 @@
+uuid: 19a8e03e-276a-4ee0-bea3-1d9b39da6f21
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagenes_vitrina
+    - node.type.grupo
+    - node.type.imagenes_vitrina
+id: node.grupo.field_imagenes_vitrina
+field_name: field_imagenes_vitrina
+entity_type: node
+bundle: grupo
+label: 'Imágenes vitrina'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      imagenes_vitrina: imagenes_vitrina
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

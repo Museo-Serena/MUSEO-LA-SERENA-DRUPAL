@@ -1,0 +1,19 @@
+uuid: 7046c149-b406-452e-a790-8eebabcf68d4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coords
+    - node.type.grupo
+id: node.grupo.field_coords
+field_name: field_coords
+entity_type: node
+bundle: grupo
+label: Coords
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
