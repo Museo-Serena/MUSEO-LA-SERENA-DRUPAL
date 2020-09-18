@@ -1,26 +1,26 @@
-uuid: a3392220-15fa-4635-bf89-7b6aa6b94631
+uuid: 94469d17-425f-405a-afae-93fb22d52eb2
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_sala
-    - node.type.sala
+    - field.storage.node.field_vitrina
+    - node.type.tablet
     - node.type.vitrina
-id: node.vitrina.field_sala
-field_name: field_sala
+id: node.tablet.field_vitrina
+field_name: field_vitrina
 entity_type: node
-bundle: vitrina
-label: Sala
-description: 'Campo relacional a entidad Sala'
-required: true
-translatable: false
+bundle: tablet
+label: Vitrina
+description: ''
+required: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      sala: sala
+      vitrina: vitrina
     sort:
       field: _none
     auto_create: false

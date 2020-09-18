@@ -1,17 +1,17 @@
-uuid: ac8bc0d1-83f9-4914-97de-cc1df4fa7a9d
+uuid: 3ee65b21-3e70-4740-8d95-4e958a615aca
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_vitrina
+    - field.storage.node.field_tablet
     - node.type.imagenes_vitrina
-    - node.type.vitrina
-id: node.imagenes_vitrina.field_vitrina
-field_name: field_vitrina
+    - node.type.tablet
+id: node.imagenes_vitrina.field_tablet
+field_name: field_tablet
 entity_type: node
 bundle: imagenes_vitrina
-label: Vitrina
-description: 'Imágenes de tendrá la Vitrina'
+label: Tablet
+description: ''
 required: true
 translatable: false
 default_value: {  }
@@ -20,9 +20,9 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      vitrina: vitrina
+      tablet: tablet
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: imagenes_vitrina
+    auto_create_bundle: ''
 field_type: entity_reference

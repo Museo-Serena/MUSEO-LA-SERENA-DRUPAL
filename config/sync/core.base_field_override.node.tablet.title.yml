@@ -1,0 +1,18 @@
+uuid: 5d90881c-6047-45b2-8586-c3a4c8cb51b0
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.tablet
+id: node.tablet.title
+field_name: title
+entity_type: node
+bundle: tablet
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.imagenes_vitrina.body
     - field.field.node.imagenes_vitrina.field_imagen_vitrina
-    - field.field.node.imagenes_vitrina.field_vitrina
+    - field.field.node.imagenes_vitrina.field_tablet
     - image.style.thumbnail
     - node.type.imagenes_vitrina
   module:
@@ -41,8 +41,8 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_vitrina:
-    weight: 2
+  field_tablet:
+    weight: 26
     settings:
       match_operator: CONTAINS
       match_limit: 10

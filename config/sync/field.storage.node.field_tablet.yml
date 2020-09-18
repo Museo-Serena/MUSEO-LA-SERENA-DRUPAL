@@ -1,11 +1,11 @@
-uuid: b644d162-3c9d-46db-abc3-f171864f1a23
+uuid: 03e56b4b-41aa-49f6-b821-5438f2a5908c
 langcode: es
 status: true
 dependencies:
   module:
     - node
-id: node.field_sala
-field_name: field_sala
+id: node.field_tablet
+field_name: field_tablet
 entity_type: node
 type: entity_reference
 settings:

@@ -1,16 +1,17 @@
-uuid: 1e6b00f6-295d-4186-b089-cc8b20422f7c
+uuid: eedb3078-b476-40f4-8c9b-5b88df3659d4
 langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.vitrina.body
-    - node.type.vitrina
+    - field.field.node.tablet.body
+    - field.field.node.tablet.field_vitrina
+    - node.type.tablet
   module:
     - text
     - user
-id: node.vitrina.default
+id: node.tablet.default
 targetEntityType: node
-bundle: vitrina
+bundle: tablet
 mode: default
 content:
   body:
@@ -19,6 +20,14 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_vitrina:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

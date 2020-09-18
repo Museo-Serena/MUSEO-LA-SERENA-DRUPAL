@@ -6,7 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.imagenes_vitrina.body
     - field.field.node.imagenes_vitrina.field_imagen_vitrina
-    - field.field.node.imagenes_vitrina.field_vitrina
+    - field.field.node.imagenes_vitrina.field_tablet
     - node.type.imagenes_vitrina
   module:
     - text
@@ -31,5 +31,5 @@ content:
     region: content
 hidden:
   field_imagen_vitrina: true
-  field_vitrina: true
+  field_tablet: true
   langcode: true

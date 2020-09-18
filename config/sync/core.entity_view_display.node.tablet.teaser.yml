@@ -1,17 +1,18 @@
-uuid: d4019100-1d73-4202-a426-b56005c347cf
+uuid: 88c46522-fd96-41b8-b0ca-86fa54a2784f
 langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.vitrina.body
-    - node.type.vitrina
+    - field.field.node.tablet.body
+    - field.field.node.tablet.field_vitrina
+    - node.type.tablet
   module:
     - text
     - user
-id: node.vitrina.teaser
+id: node.tablet.teaser
 targetEntityType: node
-bundle: vitrina
+bundle: tablet
 mode: teaser
 content:
   body:
@@ -28,4 +29,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_vitrina: true
   langcode: true
