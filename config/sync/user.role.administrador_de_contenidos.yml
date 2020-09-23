@@ -1,0 +1,44 @@
+uuid: 3d782547-6f29-4e68-a33c-96d9650710c3
+langcode: es
+status: true
+dependencies: {  }
+id: administrador_de_contenidos
+label: 'Administrador de contenidos'
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access in-place editing'
+  - 'administer nodes'
+  - 'administer search'
+  - 'administer shortcuts'
+  - 'create grupo content'
+  - 'create imagenes_vitrina content'
+  - 'create objeto content'
+  - 'create tablet content'
+  - 'create vitrina content'
+  - 'customize shortcut links'
+  - 'delete any grupo content'
+  - 'delete any imagenes_vitrina content'
+  - 'delete any objeto content'
+  - 'delete any tablet content'
+  - 'delete any vitrina content'
+  - 'delete own grupo content'
+  - 'delete own imagenes_vitrina content'
+  - 'delete own objeto content'
+  - 'delete own tablet content'
+  - 'delete own vitrina content'
+  - 'edit any grupo content'
+  - 'edit any imagenes_vitrina content'
+  - 'edit any objeto content'
+  - 'edit any tablet content'
+  - 'edit any vitrina content'
+  - 'edit own grupo content'
+  - 'edit own imagenes_vitrina content'
+  - 'edit own objeto content'
+  - 'edit own tablet content'
+  - 'edit own vitrina content'
+  - 'switch shortcut sets'
+  - 'use advanced search'
+  - 'view the administration theme'

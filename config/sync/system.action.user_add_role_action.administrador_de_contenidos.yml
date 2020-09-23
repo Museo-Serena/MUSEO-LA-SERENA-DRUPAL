@@ -1,0 +1,14 @@
+uuid: b36481fe-6cd9-4c25-b98f-d3bca79ac5b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.administrador_de_contenidos
+  module:
+    - user
+id: user_add_role_action.administrador_de_contenidos
+label: 'Add the Administrador de contenidos role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: administrador_de_contenidos
