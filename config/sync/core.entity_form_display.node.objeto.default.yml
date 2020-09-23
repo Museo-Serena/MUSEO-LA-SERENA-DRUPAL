@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.objeto.field_3d
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
+    - field.field.node.objeto.field_descripcion
     - field.field.node.objeto.field_grupo
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_material
@@ -37,19 +38,19 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 15
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
   field_3d:
-    weight: 8
+    weight: 9
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
   field_codigo:
-    weight: 2
+    weight: 3
     settings:
       size: 60
       placeholder: ''
@@ -57,15 +58,23 @@ content:
     type: string_textfield
     region: content
   field_comuna:
-    weight: 6
+    weight: 7
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_descripcion:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
   field_grupo:
-    weight: 12
+    weight: 11
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -75,7 +84,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_imagen:
-    weight: 4
+    weight: 5
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -83,7 +92,7 @@ content:
     type: image_image
     region: content
   field_material:
-    weight: 3
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -91,7 +100,7 @@ content:
     type: string_textfield
     region: content
   field_provincia:
-    weight: 7
+    weight: 8
     settings:
       size: 60
       placeholder: ''
@@ -99,7 +108,7 @@ content:
     type: string_textfield
     region: content
   field_sitio_arqueologico:
-    weight: 5
+    weight: 6
     settings:
       size: 60
       placeholder: ''
@@ -107,22 +116,15 @@ content:
     type: string_textfield
     region: content
   field_video:
-    weight: 9
+    weight: 10
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
-  langcode:
-    type: language_select
-    weight: 13
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
   path:
     type: path
-    weight: 18
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -130,21 +132,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 14
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 19
+    weight: 17
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 17
+    weight: 15
     region: content
     third_party_settings: {  }
   title:
@@ -157,7 +159,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 14
+    weight: 12
     settings:
       match_operator: CONTAINS
       size: 60
@@ -165,4 +167,5 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

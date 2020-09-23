@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.objeto.field_3d
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
+    - field.field.node.objeto.field_descripcion
     - field.field.node.objeto.field_grupo
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_material
@@ -40,6 +41,7 @@ hidden:
   field_3d: true
   field_codigo: true
   field_comuna: true
+  field_descripcion: true
   field_grupo: true
   field_imagen: true
   field_material: true

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.objeto.field_3d
     - field.field.node.objeto.field_codigo
     - field.field.node.objeto.field_comuna
+    - field.field.node.objeto.field_descripcion
     - field.field.node.objeto.field_grupo
     - field.field.node.objeto.field_imagen
     - field.field.node.objeto.field_material
@@ -54,6 +55,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_descripcion:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
     region: content
   field_grupo:
     weight: 115
