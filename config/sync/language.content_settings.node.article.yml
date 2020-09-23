@@ -1,11 +1,11 @@
-uuid: 411f409b-a44c-43b3-b266-627d4f66bd3c
+uuid: 4b5fb6df-1bfe-40ac-bb68-aedc018e5af6
 langcode: es
 status: true
 dependencies:
   config:
-    - node.type.grupo
-id: node.grupo
+    - node.type.article
+id: node.article
 target_entity_type_id: node
-target_bundle: grupo
+target_bundle: article
 default_langcode: site_default
 language_alterable: true

@@ -8,4 +8,4 @@ id: node.imagenes_vitrina
 target_entity_type_id: node
 target_bundle: imagenes_vitrina
 default_langcode: site_default
-language_alterable: false
+language_alterable: true

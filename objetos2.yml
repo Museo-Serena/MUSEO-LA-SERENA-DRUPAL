@@ -1,4 +1,4 @@
-id: objetos_73
+id: objetos2
 label: "Objetos"
 migration_tags:
   - Objetos list
@@ -27,14 +27,10 @@ process:
     - plugin: skip_on_empty
       method: process
       source: imagenes
-    - plugin: convert_array
-      source: imagenes
+    - plugin: convert_images_to_array
     - plugin: sub_process
       process:
-        field_imagen/target_id:
-          - plugin: callback
-            callable: var_dump
-            source: source_path
+        target_id:
           - plugin: file_copy
             source:
               - source_path
@@ -42,11 +38,27 @@ process:
           - plugin: entity_generate
             value_key: uri
             entity_type: file
-  "field_video/target_id":
+  #field_imagen:
+  #- plugin: sub_process
+  #process:
+  #target_id:
+  #- plugin: skip_on_empty
+  #method: process
+  #source: imagenes
+  #- plugin: explode
+  #delimiter: ";"
+  #- plugin: migration
+  #migration: objetos_images
+  #source: imagenes
+  #field_imagen/target_id:
+  #- plugin: migration
+  #migration: objetos_images
+  #source: imagenes
+  field_video/target_id:
     - plugin: migration
       migration: objetos_videos
       source: video
-  "field_3d/target_id":
+  field_3d/target_id:
     - plugin: migration
       migration: objetos_3d
       source: video3d

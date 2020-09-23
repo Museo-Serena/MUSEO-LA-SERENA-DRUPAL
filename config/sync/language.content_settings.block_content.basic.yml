@@ -1,0 +1,11 @@
+uuid: 26c074cd-82ce-4270-9a82-b620fd340612
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: block_content.basic
+target_entity_type_id: block_content
+target_bundle: basic
+default_langcode: site_default
+language_alterable: true

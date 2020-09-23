@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: gLmoA0yjvlXfMRp9ihOhRKSSQQlbdLdvpDkbVwkYPrg
 id: files
-label: Files
+label: Archivos
 module: file
 description: 'Find and manage files.'
 tag: default
@@ -39,7 +39,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtrar
           reset_button: false
           reset_button_label: Restablecer
           exposed_sorts_label: 'Ordenar por'
@@ -186,7 +186,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Name
+          label: Nombre
           exclude: false
           alter:
             alter_text: false
@@ -700,7 +700,7 @@ display:
           entity_type: file
           entity_field: status
       sorts: {  }
-      title: Files
+      title: Archivos
       header: {  }
       footer: {  }
       empty:
@@ -742,7 +742,7 @@ display:
       path: admin/content/files
       menu:
         type: tab
-        title: Files
+        title: Archivos
         description: ''
         menu_name: admin
         weight: 0

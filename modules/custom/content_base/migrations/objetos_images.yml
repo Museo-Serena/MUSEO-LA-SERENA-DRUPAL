@@ -9,7 +9,7 @@ source:
     uri_file: "public://objeto/imagenes" #location where your images will be stored
   plugin: csv
   track_changes: true
-  path: modules/custom/content_base/sources/objetos.csv #absolute location where your csv files are located
+  path: modules/custom/content_base/sources/objetos_images.csv #absolute location where your csv files are located
   header_row_count: 1
   ids: [imagenes]
 process:
