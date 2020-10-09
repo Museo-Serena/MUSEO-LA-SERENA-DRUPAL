@@ -1,0 +1,21 @@
+id: salas
+label: "Salas"
+migration_tags:
+  - Salas list
+  - Content
+source:
+  plugin: csv
+  path: modules/custom/custom_migrate/sources/salas.csv
+  delimiter: ","
+  enclosure: '"'
+  ids: [ID]
+process:
+  nid: ID
+  title: title
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: "entity:node"
+  default_bundle: sala
+migration_dependencies: {}

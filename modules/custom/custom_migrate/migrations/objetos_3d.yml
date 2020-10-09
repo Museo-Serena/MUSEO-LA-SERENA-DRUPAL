@@ -1,0 +1,40 @@
+id: objetos_3d
+migration_tags:
+  - CSV
+migration_group: null
+label: Objects 3D importer
+source:
+  constants:
+    source_base_path: modules/custom/custom_migrate/videos #absolute path where your images are currently located
+    uri_file: "public://objeto/3d" #location where your images will be stored
+  plugin: csv
+  track_changes: true
+  path: modules/custom/custom_migrate/sources/objetos.csv #absolute location where your csv files are located
+  header_row_count: 1
+  ids: [video3d]
+process:
+  source_full_path:
+    - plugin: concat
+      delimiter: /
+      source:
+        - constants/source_base_path
+        - video3d
+    - plugin: urlencode
+  uri_file:
+    - plugin: concat
+      delimiter: /
+      source:
+        - constants/uri_file
+        - video3d
+    - plugin: urlencode
+  filename: video3d
+  uri:
+    plugin: file_copy
+    source:
+      - "@source_full_path"
+      - "@uri_file"
+destination:
+  plugin: "entity:file"
+migration_dependencies:
+  required: {}
+  optional: {}

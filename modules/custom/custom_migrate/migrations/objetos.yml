@@ -1,0 +1,78 @@
+id: objetos
+label: "Objetos"
+migration_tags:
+  - Objetos list
+  - Content
+source:
+  plugin: csv
+  path: modules/custom/custom_migrate/sources/objetos.csv
+  delimiter: ","
+  enclosure: '"'
+  header_row_count: 1
+  ids: [ID]
+process:
+  type:
+    plugin: default_value
+    default_value: objeto #content type name we will create
+  nid: ID
+  title: title
+  body: masInfo
+  field_imagenes_vitrina/target_id: IDImagenVitrina
+  field_codigo: codigo
+  field_material: material
+  field_sitio_arqueologico: sitio
+  field_comuna: comuna
+  field_provincia: provincia
+  field_imagen:
+    - plugin: skip_on_empty
+      method: process
+      source: imagenes
+    - plugin: convert_array
+      source: imagenes
+    - plugin: sub_process
+      process:
+        field_imagen/target_id:
+          - plugin: callback
+            callable: var_dump
+            source: source_path
+          - plugin: file_copy
+            source:
+              - source_path
+              - destination_path
+          - plugin: entity_generate
+            value_key: uri
+            entity_type: file
+  "field_video/target_id":
+    - plugin: migration
+      migration: objetos_videos
+      source: video
+  "field_3d/target_id":
+    - plugin: migration
+      migration: objetos_3d
+      source: video3d
+  coords:
+    - plugin: skip_on_empty
+      source: coords
+      method: process
+    - plugin: explode
+      delimiter: ";"
+    - plugin: callback
+      callable: trim
+  field_coords:
+    - plugin: skip_on_empty
+      method: process
+      source: "@coords"
+    - plugin: deepen
+    - plugin: sub_process
+      process:
+        value: "value"
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: "entity:node"
+migration_dependencies:
+  optional:
+    - objetos_images #this is optional, you do not need to insert this, but the name must be the same as the migration id for images
+    - objetos_videos
+    - objetos_3d
