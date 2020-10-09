@@ -41,4 +41,5 @@ permissions:
   - 'edit own vitrina content'
   - 'switch shortcut sets'
   - 'use advanced search'
+  - 'use text format basic_html'
   - 'view the administration theme'
