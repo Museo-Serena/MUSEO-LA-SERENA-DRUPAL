@@ -1,0 +1,28 @@
+uuid: f83787bc-51d9-47b1-9ccd-18db24e61154
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sala
+    - node.type.sala
+    - node.type.vitrina
+id: node.vitrina.field_sala
+field_name: field_sala
+entity_type: node
+bundle: vitrina
+label: Sala
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      sala: sala
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
