@@ -1,4 +1,4 @@
-id: objetos
+id: objetos_92
 label: "Objetos"
 migration_tags:
   - Objetos list
@@ -17,7 +17,7 @@ process:
   nid: ID
   title: title
   body: masInfo
-  field_imagenes_vitrina/target_id: IDImagenVitrina
+  field_grupo/target_id: IDGroup
   field_codigo: codigo
   field_material: material
   field_sitio_arqueologico: sitio
@@ -50,22 +50,6 @@ process:
     - plugin: migration
       migration: objetos_3d
       source: video3d
-  coords:
-    - plugin: skip_on_empty
-      source: coords
-      method: process
-    - plugin: explode
-      delimiter: ";"
-    - plugin: callback
-      callable: trim
-  field_coords:
-    - plugin: skip_on_empty
-      method: process
-      source: "@coords"
-    - plugin: deepen
-    - plugin: sub_process
-      process:
-        value: "value"
   uid:
     plugin: default_value
     default_value: 1

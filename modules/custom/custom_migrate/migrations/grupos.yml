@@ -1,0 +1,40 @@
+id: grupos
+label: "Grupos"
+migration_tags:
+  - Grupos list
+  - Content
+source:
+  plugin: csv
+  path: modules/custom/custom_migrate/sources/grupos.csv
+  delimiter: ","
+  enclosure: '"'
+  header_row_count: 1
+  ids: [ID]
+process:
+  type:
+    plugin: default_value
+    default_value: grupo #content type name we will create
+  nid: ID
+  title: title
+  field_imagenes_vitrina/target_id: IDImagenVitrina
+  coords:
+    - plugin: skip_on_empty
+      source: coords
+      method: process
+    - plugin: explode
+      delimiter: ";"
+    - plugin: callback
+      callable: trim
+  field_coords:
+    - plugin: skip_on_empty
+      method: process
+      source: "@coords"
+    - plugin: deepen
+    - plugin: sub_process
+      process:
+        value: "value"
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: "entity:node"

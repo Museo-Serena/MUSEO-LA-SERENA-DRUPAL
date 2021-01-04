@@ -21,7 +21,7 @@ process:
       plugin: migration
       migration: imagenes_vitrinas_imagenes #previously defined migration for uploading image files
       source: imagen
-  field_vitrina/target_id: IDVitrina
+  field_tablet/target_id: IDTablet
   uid:
     plugin: default_value
     default_value: 1
