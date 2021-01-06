@@ -11,7 +11,7 @@ source:
   track_changes: true
   path: modules/custom/custom_migrate/sources/objetos_images.csv #absolute location where your csv files are located
   header_row_count: 1
-  ids: [imagenes]
+  ids: [id]
 process:
   source_full_path:
     - plugin: concat
