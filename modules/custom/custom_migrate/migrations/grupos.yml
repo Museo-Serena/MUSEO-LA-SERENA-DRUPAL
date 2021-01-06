@@ -22,7 +22,7 @@ process:
       source: coords
       method: process
     - plugin: explode
-      delimiter: ";"
+      delimiter: "-"
     - plugin: callback
       callable: trim
   field_coords:
