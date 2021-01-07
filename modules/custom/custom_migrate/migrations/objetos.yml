@@ -43,12 +43,12 @@ process:
           migration: objetos_images
           source: 'value'
   "field_video/target_id":
-    - plugin: migration
-      migration: objetos_videos
+    - plugin: migration_lookup
+      migration: objetos
       source: video
   "field_3d/target_id":
-    - plugin: migration
-      migration: objetos_3d
+    - plugin: migration_lookup
+      migration: objetos
       source: video3d
   uid:
     plugin: default_value
