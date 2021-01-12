@@ -14,7 +14,6 @@ process:
   type:
     plugin: default_value
     default_value: objeto #content type name we will create
-  nid: ID
   title: title
   body: masInfo
   field_grupo/target_id: IDGroup
