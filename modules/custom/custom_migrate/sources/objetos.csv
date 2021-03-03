@@ -345,7 +345,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 1263,10126300,Cuenco ,,1263,Arcilla ,Sitio Marquesa,"Vicuña, Provincia de Elqui",,"IMG_6685.JPG, IMG_6686.JPG, IMG_6687.JPG, IMG_6688.JPG",-,-
 1265,10126500,Puco,,1265,Arcilla,Sitio Marquesa,"Vicuña, Provincia de Elqui",,"IMG_6678.JPG, IMG_6679.JPG, IMG_6680.JPG, IMG_6683.JPG",-,-
 1361,10136100,Puco,,136,Arcilla,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,"IMG_6767.JPG, IMG_6768.JPG, IMG_6769.JPG",-,-
-1463,10146300,,,1463,,,,,"IMG_6287.JPG, IMG_6288.JPG, IMG_6289.JPG, IMG_6290.JPG",-,-
+1463,10146300,Sin identificar,,1463,,,,,"IMG_6287.JPG, IMG_6288.JPG, IMG_6289.JPG, IMG_6290.JPG",-,-
 1609,10160900,Pipa,,1609,Andesita,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 1677,10167700,Jarro,,1677,Arcilla,Sitio desconocido,Desconocida,,"IMG_6741.JPG, IMG_6742.JPG, IMG_6743.JPG, IMG_6744.JPG",-,-
 1843,10184300,Cuenco,,1843,Arcilla,Sitio desconocido,Desconocida,,"IMG_6781.JPG, IMG_6782.JPG, IMG_6783.JPG",-,-
@@ -413,11 +413,11 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 4289,10428900,Vasija,,4289,Arcilla,Sitio La Turquía B,"Río Hurtado, Provincia de Limarí",,"IMG_5792.JPG, IMG_5794.JPG, IMG_5795.JPG, IMG_5796.JPG",-,-
 4291,10429100,Vaso,,4291,Arcilla,Sitio La Turquía B,"Río Hurtado, Provincia de Limarí",,"IMG_5773.JPG, IMG_5774.JPG, IMG_5775.JPG, IMG_5776.JPG",-,-
 4295,20000006,Tembetá,,4295,Combarbalita,Sitio Guanaqueros,"Coquimbo, Provincia de Elqui",,"IMG_6952.JPG, IMG_6954.JPG, IMG_6955.JPG, IMG_6956.JPG",-,-
-4299,20000103,,,4299,,,,,"IMG_5485.JPG, IMG_5486.JPG",-,-
+4299,20000103,Sin identificar,,4299,,,,,"IMG_5485.JPG, IMG_5486.JPG",-,-
 4576,10457600,Adorno,,4576,Oro,Sitio Hurtado,"Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
 4577,10457700,Vaso,,4577,Arcilla,Sitio Hurtado,"Río Hurtado, Provincia de Limarí",,"IMG_6306.JPG, IMG_6308.JPG, IMG_6309.JPG, IMG_6310.JPG",-,039_L_MK1.mp4
 4578,10457800,Vasija,,4578,Arcilla,Sitio La Turquía B,"Río Hurtado, Provincia de Limarí",,"IMG_6237.JPG, IMG_6238.JPG, IMG_6239.JPG, IMG_6240.JPG",-,-
-4854,20000013,,,4854,,,,,COMODIN.jpg,-,-
+4854,20000013,Sin identificar,,4854,,,,,COMODIN.jpg,-,-
 4893,10489300,Pesa de red,,4893,Andesita,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,"IMG_6518.JPG, IMG_6519.JPG",-,-
 4901,10490100,Anzuelo,,4901,Cobre,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 4904,10490400,Pinza,,4904,Cobre,Sitio Quebrada El Durazno,"Vallenar, Provincia de Huasco",,"IMG_6656.JPG, IMG_6657.JPG, IMG_6661.JPG",-,-
@@ -455,7 +455,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 6471,10647100,Puco,,6471,Arcilla,Sitio La Puerta,"Copiapó, Provincia de Copiapó",,"IMG_6537.JPG, IMG_6538.JPG, IMG_6539.JPG, IMG_6540.JPG",-,-
 6540,10654000,Tembetá,,6540,Combarbalita,Sitio Los Choros,"La Higuera, Provincia de Elqui",,"IMG_6435.JPG, IMG_6436.JPG",-,-
 6769,10676900,Vaso,,6769,Arcilla,Sitio Alcohuaz,"Paihuano, Provincia de Elqui",,"IMG_5926.JPG, IMG_5927.JPG, IMG_5928.JPG, IMG_5929.JPG",-,-
-6839,10683900,,,6839,,,,,"IMG_6979.JPG, IMG_6980.JPG",-,-
+6839,10683900,Sin identificar,,6839,,,,,"IMG_6979.JPG, IMG_6980.JPG",-,-
 6850,10685000,Vasija,,6850,Arcilla,Sitio Hacienda El Bosque,"Hurtado, Provincia de Limarí",,"IMG_5538.JPG, IMG_5539.JPG, IMG_5540.JPG",-,-
 6910,20000006,Tembetá,,6910,Combarbalita,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_6982.JPG, IMG_6983.JPG, IMG_6984.JPG, IMG_6985.JPG",-,-
 6912,20000006,Tembetá,,6912,Combarbalita,Sitio El Pingo,"Vicuña, Provincia de Elqui",,"IMG_6976.JPG, IMG_6977.JPG, IMG_6978.JPG",-,-
@@ -471,7 +471,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 7918,10791800,Olla,,7918,Arcilla,Sitio Hacienda El Bosque,"Río Hurtado, Provincia de Limarí",,"IMG_5971.JPG, IMG_5972.JPG, IMG_5973.JPG, IMG_5974.JPG",-,-
 7919,10791900,Cántaro,,7919,Arcilla,Sitio La Turquía,"Río Hurtado, Provincia de Limarí",,"IMG_5959.JPG, IMG_5960.JPG, IMG_5961.JPG, IMG_5962.JPG",-,-
 7924,10792400,Tazón,,7924,Arcilla,Sitio Quebrada Las Animas,"La Serena, Provincia de Elqui",,"IMG_6549.JPG, IMG_6550.JPG, IMG_6551.JPG, IMG_6552.JPG",-,-
-8010,10801000,,,8010,,,,,COMODIN.jpg,-,-
+8010,10801000,Sin identificar,,8010,,,,,COMODIN.jpg,-,-
 8085,10808500,Pesa de red,,8085,Andesita,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 8086,10808600,Pesa de red,,8086,Granito,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 8087,10808700,Pesa de red,,8087,Granito,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,056_L_MK1.mp4
@@ -502,7 +502,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 8730,10873000,Pesa de red,,8730,Andesita,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,"IMG_6516.JPG, IMG_6517.JPG",-,-
 8731,10873100,Pesa de red,,8731,Andesita,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,"IMG_6520.JPG, IMG_6521.JPG",-,-
 8733,10873300,Pesa de red,,8733,Andesita,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,"IMG_6525.JPG, IMG_6526.JPG",-,-
-8745,10874500,,,8745,,,,,COMODIN.jpg,-,-
+8745,10874500,Sin identificar,,8745,,,,,COMODIN.jpg,-,-
 8775,10877500,Pipa,,8775,Andesita,Sitio Vega del Indio-Cordillera Ramadillas,"Combarbalá, Provincia de Limarí",,"IMG_6494.JPG, IMG_6495.JPG, IMG_6496.JPG",-,-
 8934,10893400,Pesa de red,,8934,Andesita,Sitio Punta Teatinos,"La Serena, Provincia de Elqui",,"IMG_6529.JPG, IMG_6530.JPG",-,-
 8940,10894000,Jarro,,8940,Arcilla,Sitio El Tapiado-Cogotí 18-Sitio B,"Combarbalá, Provincia de Limarí",,"IMG_6037.JPG, IMG_6038.JPG, IMG_6039.JPG, IMG_6040.JPG",-,-
@@ -654,8 +654,8 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 14792,11479200,Tembetá,,14792,Combarbalita,Sitio Fundo Tulahuén Oriente,"Monte Patria, Provincia de Limarí",,"IMG_6450.JPG, IMG_6451.JPG, IMG_6452.JPG",-,-
 14795,11479500,Tembetá,,14795,Combarbalita,Sitio desconocido,Desconocida,,"IMG_6085.JPG, IMG_6086.JPG, IMG_6087.JPG",-,031_L_MK1.mp4
 14797,11479700,Puco,,14797,Arcilla,Sitio La Puerta,"Copiapó, Provincia de Copiapó",,"IMG_6770.JPG, IMG_6771.JPG, IMG_6772.JPG, IMG_6773.JPG",-,-
-14862,11486200,,,14862,,,,,COMODIN.jpg,-,-
-14865,11486500,,,14865,,,,,COMODIN.jpg,-,-
+14862,11486200,Sin identificar,,14862,,,,,COMODIN.jpg,-,-
+14865,11486500,Sin identificar,,14865,,,,,COMODIN.jpg,-,-
 16205,11620500,Vasija,,16205,Arcilla,Sitio El Mauro,"Salamanca, Provincia de Choapa",,"IMG_5851.JPG, IMG_5852.JPG, IMG_5853.JPG, IMG_5854.JPG",-,-
 18471,11847100,Cuenco,,1847,Arcilla,Sitio desconocido,Desconocida,,"IMG_6603.JPG, IMG_6604.JPG, IMG_6605.JPG, IMG_6606.JPG",-,-
 19851,11985100,Puco,,1985,Arcilla,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,"IMG_6757.JPG, IMG_6758.JPG, IMG_6759.JPG, IMG_6760.JPG",-,-
@@ -774,7 +774,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 147982,24798200,Aro,,14798-2,Cobre,Sitio Coquimbo centro,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,052_L_MK1.mp4
 148491,20000007,Tembetá,,14849-1,Piedra,Sitio Recoleta-Quebrada Bulrreme,"Ovalle, Provincia de Ovalle",,COMODIN.jpg,-,-
 148492,24849200,Adorno,,14849-2,Combarbalita,Sitio Recoleta-Quebrada Bulrreme,"Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
-148651,24865100,,,14865,,,,,COMODIN.jpg,-,-
+148651,24865100,Sin identificar,,14865,,,,,COMODIN.jpg,-,-
 731271,83127100,Vasija,,73-127,Arcilla,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,"IMG_5865.JPG, IMG_5866.JPG, IMG_5867.JPG, IMG_5868.JPG",-,-
 731481,83148100,Mano de moler,,73-148,Andesita,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,COMODIN.jpg,-,-
 731491,83149100,Colgante,,73-149,Turquesa,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -784,7 +784,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 731541,83154100,Colgante,,73-154,Concha,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,COMODIN.jpg,-,-
 731561,83156100,Colgante,,73-156,Concha,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,COMODIN.jpg,-,-
 731641,83164100,Perforador,,73-164,Piedra,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,"IMG_6175.JPG, IMG_6176.JPG",-,-
-731642,83164200,,,73-164,,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,"IMG_6181.JPG, IMG_6182.JPG",-,-
+731642,83164200,Sin identificar,,73-164,,Sitio Quebrada Las Vizcachas,"La Higuera, Provincia de Elqui",,"IMG_6181.JPG, IMG_6182.JPG",-,-
 935111,103511100,Cuenco,,9351A,Arcilla,Sitio Farellón,"Río Hurtado, Provincia de Limarí",,"IMG_6264.JPG, IMG_6265.JPG, IMG_6266.JPG, IMG_6267.JPG",-,-
 1479821,157982100,Aro,,14798-2,Cobre,Sitio Coquimbo centro,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,052_L_MK1.mp4
 1484921,158492100,Adorno,,14849-2,Combarbalita,Sitio Recoleta-Quebrada Bulrreme,"Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
@@ -797,7 +797,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 51,10005100,Jarro,,51,Arcilla,Sitio Compañia Baja.Grupo R.,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 54,10005400,Jarro,,54,Arcilla ,Sitio Compañia Baja.Grupo R.,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 73,10007300,Puco ,,73,Arcilla ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-74,10007400,,,74,,,,,COMODIN.jpg,-,-
+74,10007400,Sin identificar,,74,,,,,COMODIN.jpg,-,-
 107,10010700,Crisol ,,107,Arcilla ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 117,10011700,Jarro pato,,117,Arcilla,Sitio La Serena Centro,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 129,10012900,Plato,,129,Arcilla,Sitio Compañia Baja,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -814,8 +814,8 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 166,10016600,Escudilla,,166,Arcilla ,Sitio Compañía Baja. La Serena Norte,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 168,10016800,Vasija,,168,Arcilla ,Sitio Compañia Baja,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 170,10017000,Aisana,,170,Arcilla ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-177,10017700,,,177,,,,,COMODIN.jpg,-,-
-188,10018800,,,188,,,,,COMODIN.jpg,-,-
+177,10017700,Sin identificar,,177,,,,,COMODIN.jpg,-,-
+188,10018800,Sin identificar,,188,,,,,COMODIN.jpg,-,-
 190,20000086,Cincel ,,190,Cobre ,Sitio La Higuera Guanaquero,indeterminada,,COMODIN.jpg,-,-
 214,20000091,Recipiente,,214,Piedra,Sitio Cogotí,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,066_L_MK1.mp4
 220,10022000,Plato,,220,Arcilla ,Sitio desconocido,Desconocida,,"IMG_7547.JPG, IMG_7548.JPG, IMG_7550.JPG, IMG_7551.JPG",-,-
@@ -825,7 +825,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 234,20000091,Plato,,234,Granito ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 356,10035600,Barba de arpón,,356,Madera,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 475,20000027,Punta de proyectil ,,475,Sílice ,Sitio Chanchoquin-Copiapó,"Copiapó, Provincia de Copiapó",,"IMG_7711.JPG, IMG_7712.JPG",-,-
-479,10047900,,,479,,,,,COMODIN.jpg,-,-
+479,10047900,Sin identificar,,479,,,,,COMODIN.jpg,-,-
 495,10049500,Aríbalo ,,495,Arcilla ,Sitio San Isidro,"Vicuña, Provincia de Elqui",,"IMG_8009.JPG, IMG_8010.JPG, IMG_8011.JPG, IMG_8012.JPG",-,-
 496,10049600,Jarro,,496,Arcilla ,Sitio San Isidro,"Vicuña, Provincia de Elqui",,"IMG_8065.JPG, IMG_8066.JPG, IMG_8067.JPG, IMG_8068.JPG",-,-
 500,10050000,Plato,,500,Sílice ,Sitio Alcohuaz (C.S.F.),"Paihuano, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -833,8 +833,8 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 541,10054100,Jarro,,54,Arcilla ,Sitio Compañia Baja.Grupo R.,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 598,10059800,Plato,,598,Arcilla ,Sitio El Bolsico,"Río Hurtado, Provincia de Limarí",,"IMG_8182.JPG, IMG_8183.JPG, IMG_8184.JPG, IMG_8185.JPG",-,-
 600,10060000,Jarro,,600,Arcilla,Sitio Falda Mala,"Río Hurtado, Provincia de Limarí",,"IMG_7986.JPG, IMG_7987.JPG, IMG_7988.JPG, IMG_7989.JPG",-,-
-620,10062000,,,620,,,,,COMODIN.jpg,-,-
-627,10062700,,,627,,,,,COMODIN.jpg,-,-
+620,10062000,Sin identificar,,620,,,,,COMODIN.jpg,-,-
+627,10062700,Sin identificar,,627,,,,,COMODIN.jpg,-,-
 640,10064000,Figurilla ,,640,Bronce,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7217.JPG, IMG_7218.JPG, IMG_7219.JPG",-,-
 641,20000046,Disco,,641,Plata,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7296.JPG, IMG_7297.JPG, IMG_7300.JPG",-,-
 642,20000036,Tupu,,642,Plata ,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7289.JPG, IMG_7290.JPG",-,-
@@ -846,7 +846,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 649,20000042,Figurilla ,,649,Concha Spondylus (Mullu),Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7267.JPG, IMG_7268.JPG",-,-
 657,10065700,Aisana,,657,Arcilla ,Sitio La Serena Centro (calle Matta),"La Serena, Provincia de Elqui",,"IMG_8141.JPG, IMG_8142.JPG, IMG_8143.JPG, IMG_8144.JPG",-,-
 669,10066900,Hacha ,,669,Cobre ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,097_L_MK1.mp4
-670,10067000,,,670,,,,,COMODIN.jpg,-,-
+670,10067000,Sin identificar,,670,,,,,COMODIN.jpg,-,-
 671,10067100,Tortera ,,671,Andesita ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 684,10068400,Hacha ,,684,Cobre ,Sitio Hacienda El Bosque-Hurtado,"Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
 705,10070500,Jarro zapato ,,705,Arcilla ,Sitio Hacienda Quilacán (Altovalsol),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -894,7 +894,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 951,10095100,Jarro,,951,Arcilla,Sitio Altovalso,"La Serena, Provincia de Elqui",,"IMG_8005.JPG, IMG_8006.JPG, IMG_8007.JPG, IMG_8008.JPG",-,-
 959,20000067,Escudilla,,959,Arcilla ,Sitio Vegas de Peñuelas,"Coquimbo, Provincia de Elqui",,"IMG_7864.JPG, IMG_7865.JPG, IMG_7866.JPG, IMG_7867.JPG, IMG_7868.JPG",-,-
 970,10097000,Plato,,970,Arcilla,Sitio Altovalso,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-985,10098500,,,985,,,,,COMODIN.jpg,-,-
+985,10098500,Sin identificar,,985,,,,,COMODIN.jpg,-,-
 1027,10102700,Barba de arpón,,1027,Hueso,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 1055,10105500,Fragmento de vasija,,1055,Arcilla,Sitio Peñuelas,"Coquimbo, Provincia de Elqui",,IMG_8192.JPG,-,085_L_MK1.mp4
 1056,20000084,Cuenco,,1056,Arcilla,Sitio Altovalso,"La Serena, Provincia de Elqui",,"IMG_8109.JPG, IMG_8110.JPG, IMG_8111.JPG, IMG_8112.JPG",-,073_L_MK1.mp4
@@ -965,9 +965,9 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 13101,20000141,Espátula,,1310,Hueso,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,"IMG_7591.JPG, IMG_7592.JPG",-,-
 1311,20000134,Espátula,,1311,Hueso,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,"IMG_7629.JPG, IMG_7630.JPG",-,-
 1318,20000052,Cabezal de arpón,,1318,Hueso,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-1376,20000044,,,1376,,,,,COMODIN.jpg,-,-
+1376,20000044,Sin identificar,,1376,,,,,COMODIN.jpg,-,-
 1385,10138500,Hacha ,,A-3-85,Cobre ,Sitio Arrayan-Lambert,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-1450,10145000,,,1450,,,,,COMODIN.jpg,-,-
+1450,10145000,Sin identificar,,1450,,,,,COMODIN.jpg,-,-
 1485,10148500,Cuenco,,1485,Arcilla,Sitio desconocido,Desconocida,,"IMG_7929.JPG, IMG_7930.JPG, IMG_7931.JPG, IMG_7932.JPG",-,-
 1495,20000145,Plato,,1495,Arcilla,Sitio Altovalso,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 1497,10149700,Plato,,1497,Arcilla ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
@@ -986,7 +986,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 1571,10157100,Tortera,,157,Piedra,Sitio Compañia Baja,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 1622,10162200,Aríbalo,,1622,Arcilla,Sitio Altovalso,"La Serena, Provincia de Elqui",,"IMG_8133.JPG, IMG_8134.JPG, IMG_8135.JPG, IMG_8136.JPG",-,-
 1626,10162600,Cuenco,,1626,Arcilla,Sitio desconocido,Desconocida,,"IMG_7472.JPG, IMG_7473.JPG, IMG_7474.JPG, IMG_7475.JPG",-,-
-1641,10164100,,,1641,,,,,COMODIN.jpg,-,-
+1641,10164100,Sin identificar,,1641,,,,,COMODIN.jpg,-,-
 1651,10165100,Jarro,,165,Arcilla,Sitio Compañia Baja,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 1671,20000069,Jarro,,1671,Arcilla,Sitio Peñuelas,"Coquimbo, Provincia de Elqui",,"IMG_7844.JPG, IMG_7845.JPG, IMG_7846.JPG, IMG_7847.JPG",-,-
 1673,10167300,Puco,,1673,Arcilla ,Sitio Altovalso,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -1114,7 +1114,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 2184,20000028,Punta de proyectil ,,2184,Sílice ,Sitio desconocido,Desconocida,,"IMG_7709.JPG, IMG_7710.JPG",-,-
 2201,10220100,Plato,,220,Arcilla ,Sitio desconocido,Desconocida,,"IMG_7547.JPG, IMG_7548.JPG, IMG_7550.JPG, IMG_7551.JPG",-,-
 2251,10225100,Plato,,225,Arcilla,Sitio La Chimba. Ovalle,"Ovalle, Provincia de Ovalle",,COMODIN.jpg,-,-
-2297,10229700,,,2297,,,,,COMODIN.jpg,-,-
+2297,10229700,Sin identificar,,2297,,,,,COMODIN.jpg,-,-
 2341,10234100,Plato,,234,Granito ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 2371,10237100,Remo,,2371,Hueso,Sitio Plazoleta Brasil (La Serena),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 2422,10242200,Aríbalo,,2422,Arcilla,Sitio Conay,"Alto del Carmen, Provincia de Huasco",,"IMG_8028.JPG, IMG_8029.JPG, IMG_8030.JPG, IMG_8031.JPG",-,-
@@ -1129,13 +1129,13 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 3046,10304600,Jarro pato ,,3046,Arcilla ,Sitio La Serena Centro (calle Andrés Bello),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 3050,10305000,Plato,,3050,Arcilla ,Sitio Plaza de Armas La Serena,"La Serena, Provincia de Elqui",,"IMG_7102.JPG, IMG_7103.JPG, IMG_7104.JPG, IMG_7106.JPG",-,-
 3062,20000072,Plato (arqueológico y etnográfico) ,,3062,Arcilla ,Sitio La Serena Centro (calle Matta).,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-3062,10306200,,,306a,,,,,"IMG_7890.JPG, IMG_7891.JPG, IMG_7892.JPG",-,-
+3062,10306200,Sin identificar,,306a,,,,,"IMG_7890.JPG, IMG_7891.JPG, IMG_7892.JPG",-,-
 3064,10306400,Jarro,,3064,Arcilla,Sitio La Serena Centro,"La Serena, Provincia de Elqui",,"IMG_7058.JPG, IMG_7059.JPG, IMG_7060.JPG, IMG_7061.JPG",-,-
 3065,10306500,Tazón ,,3065,Arcilla ,Sitio La Serena Centro,"La Serena, Provincia de Elqui",,"IMG_7455.JPG, IMG_7456.JPG, IMG_7457.JPG, IMG_7458.JPG",-,-
 3076,10307600,Plato,,3076,Arcilla ,Sitio Plaza de Armas La Serena,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-3618,10361800,,,3618,,,,,COMODIN.jpg,-,-
-3619,10361900,,,3619,,,,,COMODIN.jpg,-,-
-3761,10376100,,,3761,,,,,COMODIN.jpg,-,-
+3618,10361800,Sin identificar,,3618,,,,,COMODIN.jpg,-,-
+3619,10361900,Sin identificar,,3619,,,,,COMODIN.jpg,-,-
+3761,10376100,Sin identificar,,3761,,,,,COMODIN.jpg,-,-
 4132,20000030,Tortera,,4132,Hueso,Sitio desconocido,Desconocida,,"IMG_7689.JPG, IMG_7692.JPG",-,-
 4133,20000030,Tortera,,4133,Hueso,Sitio desconocido,Desconocida,,"IMG_7687.JPG, IMG_7688.JPG",-,-
 4134,20000030,Tortera,,4134,Hueso,Sitio desconocido,Desconocida,,"IMG_7698.JPG, IMG_7699.JPG",-,-
@@ -1145,11 +1145,11 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 4272,10427200,Vasija,,4272,Arcilla ,Sitio La Turquía B,"Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
 4296,10429600,Jarro zapato ,,4296,Arcilla,Sitio La Turquía B,"Río Hurtado, Provincia de Limarí",,"IMG_7442.JPG, IMG_7443.JPG, IMG_7444.JPG, IMG_7445.JPG",-,-
 4751,20000071,Vasija,,4751,Arcilla,"Sitio Potrero Las Rosas, Hurtado","Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
-4759,10475900,,,4759,,,,,COMODIN.jpg,-,-
+4759,10475900,Sin identificar,,4759,,,,,COMODIN.jpg,-,-
 5104,20000024,Tupu,,5104,Cobre,"Sitio Edificio Intendencia, La Serena Centro","La Serena, Provincia de Elqui",,"IMG_7681.JPG, IMG_7682.JPG",-,-
 5381,10538100,Jarro zapato ,,538,Arcilla ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 5392,10539200,Adorno ,,5392,Plata ,Sitio Huanta,"Vicuña, Provincia de Elqui",,COMODIN.jpg,-,-
-5550,10555000,,,5550,,,,,COMODIN.jpg,-,-
+5550,10555000,Sin identificar,,5550,,,,,COMODIN.jpg,-,-
 5660,10566000,Cuenco,,5660,Arcilla,Sitio La Serena Centro,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 5665,20000025,Campanilla,,5665,Cobre,Sitio Edificio Sociedad Agrícola del Norte. Serena Centro.,"La Serena, Provincia de Elqui",,"IMG_7738.JPG, IMG_7739.JPG",-,-
 5741,10574100,Aguja,,5741,Hueso,Sitio Caleta Arrayán,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -1161,7 +1161,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 5995,10599500,Cuenco ,,5995,Arcilla ,Sitio La Serena Centro,"La Serena, Provincia de Elqui",,"IMG_7543.JPG, IMG_7544.JPG, IMG_7545.JPG",-,-
 6200,20000061,Figurilla ,,6200,Arcilla ,Sitio Pama,"Combarbalá, Provincia de Limarí",,IMG_8237.JPG,-,-
 6202,20000063,Figurilla ,,6202,Arcilla ,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_8198.JPG, IMG_8200.JPG",-,084_L_MK1.mp4
-6242,10624200,,,6242,,,,,COMODIN.jpg,-,-
+6242,10624200,Sin identificar,,6242,,,,,COMODIN.jpg,-,-
 6291,10629100,Colgante ,,629-1,Combarbalita ,Sitio Cogotí,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,-
 6357,10635700,Figurilla,,6357,Arcilla,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_8194.JPG, IMG_8196.JPG",-,-
 6401,10640100,Figurilla ,,640,Bronce,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7217.JPG, IMG_7218.JPG, IMG_7219.JPG",-,-
@@ -1189,7 +1189,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 7343,20000067,Escudilla,,73-43,Arcilla ,Sitio Parcela Nº 21. Peñuelas,"Coquimbo, Provincia de Elqui",,"IMG_7875.JPG, IMG_7876.JPG, IMG_7877.JPG, IMG_7878.JPG",-,-
 7410,10741000,Plato,,74-10,Arcilla,Sitio Compañía de Teléfonos,"La Serena, Provincia de Elqui",,"IMG_7925.JPG, IMG_7926.JPG, IMG_7927.JPG",-,-
 7411,20000073,Plato,,74-11,Arcilla ,Sitio Compañía de Teléfonos,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-7424,10742400,,,7424,,,,,"IMG_7934.JPG, IMG_7935.JPG, IMG_7936.JPG",-,-
+7424,10742400,Sin identificar,,7424,,,,,"IMG_7934.JPG, IMG_7935.JPG, IMG_7936.JPG",-,-
 7424,10742400,Cuenco ,,74-24,Arcilla ,Sitio Compañía de Teléfonos,"La Serena, Provincia de Elqui",,"IMG_7934.JPG, IMG_7935.JPG, IMG_7936.JPG",-,-
 7491,10749100,Jarro zapato ,,749,Arcilla ,Sitio Puclaro,"Vicuña, Provincia de Elqui",,COMODIN.jpg,-,-
 7501,10750100,Kero doble,,750,Arcilla,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_8160.JPG, IMG_8161.JPG, IMG_8162.JPG, IMG_8163.JPG",-,-
@@ -1201,7 +1201,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 7622,20000058,Figurilla ,,7622,Arcilla ,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_8208.JPG, IMG_8209.JPG",-,-
 7661,10766100,Jarro,,766,Arcilla ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 7815,10781500,Figura humana,,7815,Piedra,Sitio Hacienda Illapel,"Illapel, Provincia de Choapa",,COMODIN.jpg,-,104_L_MK1.mp4
-7859,10785900,,,7859,,,,,COMODIN.jpg,-,-
+7859,10785900,Sin identificar,,7859,,,,,COMODIN.jpg,-,-
 7884,20000036,Tupu,,7884,Oro,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7285.JPG, IMG_7286.JPG",-,-
 7886,20000034,Tupu,,7886,Plata ,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7291.JPG, IMG_7292.JPG",-,-
 7887,20000036,Tupu,,7887,Plata,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,"IMG_7283.JPG, IMG_7284.JPG",-,-
@@ -1214,9 +1214,9 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 8743,20000071,Jarro zapato ,,8743,Arcilla ,Sitio El Bolsico,"Río Hurtado, Provincia de Limarí",,COMODIN.jpg,-,-
 8751,20000061,Figurilla ,,8751,Arcilla ,Sitio La Finca Combarbalá,"Combarbalá, Provincia de Limarí",,"IMG_8220.JPG, IMG_8221.JPG, IMG_8222.JPG",-,-
 8759,20000086,Cincel ,,8759,Cobre ,Sitio La Escondida-Pama,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,-
-8760,10876000,,,8760,,,,,"IMG_8214.JPG, IMG_8217.JPG",-,-
-8761,20000061,,,8761,,,,,"IMG_8240.JPG, IMG_8241.JPG",-,-
-8908,20000032,,,8908,,,,,"IMG_7750.JPG, IMG_7751.JPG",-,-
+8760,10876000,Sin identificar,,8760,,,,,"IMG_8214.JPG, IMG_8217.JPG",-,-
+8761,20000061,Sin identificar,,8761,,,,,"IMG_8240.JPG, IMG_8241.JPG",-,-
+8908,20000032,Sin identificar,,8908,,,,,"IMG_7750.JPG, IMG_7751.JPG",-,-
 8932,10893200,Tortera,,8932,Hueso,Sitio Cogotí 18,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,-
 8950,10895000,Deformador  de cráneo,,8950,Madera,"Sitio Comunidad Nativa San Francisco, Perú ","Yarinacocha, Provincia de Coronel Portillo",,"IMG_7447.JPG, IMG_7448.JPG, IMG_7449.JPG, IMG_7450.JPG",-,-
 8972,10897200,Urna,,8972,Arcilla,Sitio Carrizalillo,"Freirina, Provincia de Huasco",,"IMG_8174.JPG, IMG_8175.JPG, IMG_8176.JPG",-,-
@@ -1272,7 +1272,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 11083,20000138,Espátula,,11083,Hueso,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_7595.JPG, IMG_7596.JPG",-,-
 110831,20000141,Espátula,,11083,Hueso,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_7595.JPG, IMG_7596.JPG",-,-
 11887,11188700,Jarro zapato ,,A-18-87,Arcilla ,Sitio Parcela 24 Peñuelas,"Coquimbo, Provincia de Elqui",,"IMG_7574.JPG, IMG_7575.JPG, IMG_7576.JPG, IMG_7577.JPG",-,-
-12072,11207200,,,12072,,,,,COMODIN.jpg,-,-
+12072,11207200,Sin identificar,,12072,,,,,COMODIN.jpg,-,-
 12141,20000064,Plato,,1214,Arcilla ,Sitio Marquesa,"Elqui, Provincia de Elqui",,"IMG_7495.JPG, IMG_7496.JPG, IMG_7497.JPG, IMG_7498.JPG",-,-
 12154,11215400,Figurilla,,12154,Arcilla,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_8201.JPG, IMG_8204.JPG",-,-
 12155,20000061,Figurilla ,,12155,Arcilla ,Sitio Pama,"Combarbalá, Provincia de Limarí",,"IMG_8238.JPG, IMG_8239.JPG",-,-
@@ -1350,7 +1350,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 13627,20000069,Urna ,,13627,Arcilla ,Sitio Altovalso,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 13628,11362800,Jarro zapato ,,13628,Arcilla,Sitio Hacienda Altovalsol,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,062_L_MK1.mp4
 13633,11363300,Collar ,,13633,Cobre ,Sitio Altovalso,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-13761,20000045,,,1376,,,,,COMODIN.jpg,-,-
+13761,20000045,Sin identificar,,1376,,,,,COMODIN.jpg,-,-
 13761,11376100,Crisol,,13761,Arcilla ,Sitio Parcela Nº 23. Peñuelas,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,-
 13763,11376300,Aríbalo ,,13763,Arcilla ,Sitio Parcela 23 Peñuelas,"Coquimbo, Provincia de Elqui",,"IMG_8015.JPG, IMG_8016.JPG, IMG_8017.JPG, IMG_8018.JPG",-,-
 13768,11376800,Textil ,,13768,Lana,Sitio Cerro Las Tortolas,"Vicuña, Provincia de Elqui",,"IMG_7208.JPG, IMG_7209.JPG",-,-
@@ -1367,13 +1367,13 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 13846,11384600,Valva de Spóndilus,,13846,Concha Spondylus (Mullu),Museo Arqueológico Nacional Brüning,"Lambayeque, Provincia de Lambayeque",,"IMG_7242.JPG, IMG_7244.JPG",-,-
 14003,11400300,Martillo ,,14003,Granito ,Sitio Los Puntiudos - Los Infieles,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 14026,11402600,Martillo ,,14026,Piedra ,Sitio Mina El Salvador,"Diego de Almagro, Provincia de Chañaral ",,COMODIN.jpg,-,-
-14088,11408800,,,14088,,,,,COMODIN.jpg,-,-
+14088,11408800,Sin identificar,,14088,,,,,COMODIN.jpg,-,-
 14378,11437800,Tazón ,,14378,Arcilla ,Sitio Las Placetas,"Paihuano, Provincia de Elqui",,"IMG_7160.JPG, IMG_7161.JPG, IMG_7162.JPG, IMG_7163.JPG",-,063_L_MK1.mp4
 14379,11437900,Jarro,,14379,Arcilla ,Sitio Plaza de Armas La Serena,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 14383,11438300,Silo,,14383,Arcilla,Sitio Quebrada de Talca,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-14410,11441000,,,14410,,,,,COMODIN.jpg,-,-
+14410,11441000,Sin identificar,,14410,,,,,COMODIN.jpg,-,-
 14431,20000133,Espátula,,14431,Hueso,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_7623.JPG, IMG_7624.JPG",-,-
-14440,11444000,,,14440,,,,,COMODIN.jpg,-,-
+14440,11444000,Sin identificar,,14440,,,,,COMODIN.jpg,-,-
 14443,11444300,Plato,,14443,Arcilla ,Sitio Paihuano,"Paihuano, Provincia de Elqui",,COMODIN.jpg,-,-
 14497,11449700,Plato,,14497,Arcilla,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_7913.JPG, IMG_7914.JPG",-,-
 14498,20000066,Jarro,,14498,Arcilla ,Sitio Puclaro,"Vicuña, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -1391,16 +1391,16 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 14810,11481000,Pesa de red ,,14810,Granito ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 14815,11481500,Adorno ,,14815,Cobre ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 14816,11481600,Tortera,,14816,Hueso,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-14840,11484000,,,14840,,,,,COMODIN.jpg,-,-
+14840,11484000,Sin identificar,,14840,,,,,COMODIN.jpg,-,-
 14846,11484600,Hacha ,,14846,Cobre ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 14851,11485100,Cuenco,,1485,Arcilla,Sitio desconocido,Desconocida,,"IMG_7929.JPG, IMG_7930.JPG, IMG_7931.JPG, IMG_7932.JPG",-,-
 14857,20000134,Espátula,,14857,Hueso,Sitio desconocido,Desconocida,,"IMG_7621.JPG, IMG_7622.JPG",-,-
 14858,20000024,Campanilla,,14858,Cobre,Sitio Edificio Sociedad Agrícola del Norte. Serena Centro.,"La Serena, Provincia de Elqui",,"IMG_7685.JPG, IMG_7686.JPG",-,-
 14860,11486000,Jarro,,14860,Arcilla ,Sitio desconocido,Desconocida,,"IMG_7981.JPG, IMG_7982.JPG, IMG_7983.JPG, IMG_7984.JPG",-,-
-14863,11486300,,,14863,,,,,COMODIN.jpg,-,-
-14864,11486400,,,14864,,,,,COMODIN.jpg,-,-
-14866,11486600,,,14866,,,,,COMODIN.jpg,-,-
-14867,11486700,,,14867,,,,,COMODIN.jpg,-,-
+14863,11486300,Sin identificar,,14863,,,,,COMODIN.jpg,-,-
+14864,11486400,Sin identificar,,14864,,,,,COMODIN.jpg,-,-
+14866,11486600,Sin identificar,,14866,,,,,COMODIN.jpg,-,-
+14867,11486700,Sin identificar,,14867,,,,,COMODIN.jpg,-,-
 14869,11486900,Punta de proyectil,,14869,Sílice,Sitio El Mauro,"Los Vilos, Provincia de Choapa",,COMODIN.jpg,-,-
 14971,11497100,Plato,,1497,Arcilla ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
 15061,11506100,Escudilla,,1506,Arcilla ,Sitio Altovalso,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -1468,7 +1468,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 80711,18071100,Tubo,,8071-a,Hueso,Sitio Puerto Aldea,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,061_L_MK1.mp4
 80712,18071200,Tubo,,8071-b,Hueso,Sitio Puerto Aldea,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,-
 80713,18071300,Tubo,,8071-c,Hueso,Sitio Puerto Aldea,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,-
-83386,18338600,,,83/38/6,,,,,COMODIN.jpg,-,-
+83386,18338600,Sin identificar,,83/38/6,,,,,COMODIN.jpg,-,-
 89311,18931100,Tortera ,,8931-1,Combarbalita ,Sitio Cogotí 18,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,-
 89721,18972100,Urna,,8972,Arcilla,Sitio Carrizalillo,"Freirina, Provincia de Huasco",,"IMG_8174.JPG, IMG_8175.JPG, IMG_8176.JPG",-,-
 91731,20000064,Escudilla ,,9173,Arcilla ,Sitio Punta de Piedra,"La Serena, Provincia de Elqui",,"IMG_7508.JPG, IMG_7509.JPG, IMG_7510.JPG, IMG_7511.JPG",-,-
@@ -1507,7 +1507,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 143781,24378100,Tazón ,,14378,Arcilla ,Sitio Las Placetas,"Paihuano, Provincia de Elqui",,"IMG_7160.JPG, IMG_7161.JPG, IMG_7162.JPG, IMG_7163.JPG",-,063_L_MK1.mp4
 143791,24379100,Jarro,,14379,Arcilla ,Sitio Plaza de Armas La Serena,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 144103,20000059,Figurilla,,14410-3,Arcilla,Sitio Pama,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,-
-144105,24410500,,,14410-E,,,,,COMODIN.jpg,-,-
+144105,24410500,Sin identificar,,14410-E,,,,,COMODIN.jpg,-,-
 144107,20000057,Figurilla,,14410-7,Arcilla,Sitio Pama,"Combarbalá, Provincia de Limarí",,IMG_8243.JPG,-,-
 144301,20000139,Espátula,,14430-1,Hueso,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_7583.JPG, IMG_7584.JPG",-,-
 1443011,20000144,Espátula,,14430-1,Hueso,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_7583.JPG, IMG_7584.JPG",-,-
@@ -1520,7 +1520,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 145111,24511100,Plato,,14511,Arcilla ,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_7501.JPG, IMG_7502.JPG, IMG_7504.JPG, IMG_7505.JPG",-,-
 145141,24514100,Plato,,14514,Arcilla ,Sitio Puclaro,"Vicuña, Provincia de Elqui",,COMODIN.jpg,-,-
 145181,24518100,Jarro,,14518,Arcilla ,Sitio Puclaro,"Vicuña, Provincia de Elqui",,COMODIN.jpg,-,-
-145253,24525300,,,14525-3?,,,,,COMODIN.jpg,-,-
+145253,24525300,Sin identificar,,14525-3?,,,,,COMODIN.jpg,-,-
 146261,24626100,Apretador de Trama (Vinchuña),,14626,Hueso ,"Sitio Los Pozos, Puerto Aldea","Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,-
 146621,20000087,Adorno ,,14662-1,Oro ,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 146621,24662100,Adorno ,,14662(1),Oro ,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -1535,15 +1535,15 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 1481421,20000142,Tubo,,14814-2,Hueso,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,"IMG_7604.JPG, IMG_7605.JPG",-,-
 148151,24815100,Adorno ,,14815,Cobre ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 148171,24817100,Collar ,,14817-1,Turquesa ,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-148243,24824300,,,14 824-3?,,,,,COMODIN.jpg,-,-
-148255,24825500,,,14825-5,,Sitio Cabra Atada,"Tierra Amarilla, Provincia de Copiapó",,COMODIN.jpg,-,-
+148243,24824300,Sin identificar,,14 824-3?,,,,,COMODIN.jpg,-,-
+148255,24825500,Sin identificar,,14825-5,,Sitio Cabra Atada,"Tierra Amarilla, Provincia de Copiapó",,COMODIN.jpg,-,-
 148256,24825600,Pala ,,14825-6,Andesita ,Sitio Cabra Atada,"Tierra Amarilla, Provincia de Copiapó",,COMODIN.jpg,-,-
-148381,20000055,,,14838-1,,,,,"IMG_7938.JPG, IMG_7939.JPG, IMG_7940.JPG, IMG_7941.JPG",-,-
+148381,20000055,Sin identificar,,14838-1,,,,,"IMG_7938.JPG, IMG_7939.JPG, IMG_7940.JPG, IMG_7941.JPG",-,-
 148384,24838400,Escudilla,,14838-4,Arcilla,Sitio Puclaro,"Vicuña, Provincia de Elqui",,"IMG_7113.JPG, IMG_7114.JPG, IMG_7115.JPG, IMG_7117.JPG",-,-
 148404,20000077,Aríbalo,,14840-4,Arcilla,Sitio El Olivar (Compañía Baja),"La Serena, Provincia de Elqui",,"IMG_8035.JPG, IMG_8036.JPG, IMG_8037.JPG",-,-
 148461,24846100,Hacha ,,14846,Cobre ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,-
-148661,24866100,,,14866,,,,,COMODIN.jpg,-,-
-148671,24867100,,,14867,,,,,COMODIN.jpg,-,-
+148661,24866100,Sin identificar,,14866,,,,,COMODIN.jpg,-,-
+148671,24867100,Sin identificar,,14867,,,,,COMODIN.jpg,-,-
 186411,28641100,Aríbalo ,,1864-A,Arcilla ,Sitio desconocido,Desconocida,,COMODIN.jpg,-,083_L_MK1.mp4
 807111,90711100,Tubo,,8071-a,Hueso,Sitio Puerto Aldea,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,061_L_MK1.mp4
 807121,90712100,Tubo,,8071-b,Hueso,Sitio Puerto Aldea,"Coquimbo, Provincia de Elqui",,COMODIN.jpg,-,-
@@ -1552,6 +1552,7 @@ ID,IDGroup,title,masInfo,codigo,material,sitio,comuna,provincia,imagenes,video,v
 1441031,20000060,Figurilla,,14410-3,Arcilla,Sitio Pama,"Combarbalá, Provincia de Limarí",,COMODIN.jpg,-,-
 1466211,20000088,Adorno ,,14662-1,Oro ,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
 1466221,20000088,Adorno ,,14662-2,Oro ,Sitio Almirante Latorre,"La Serena, Provincia de Elqui",,COMODIN.jpg,-,-
-1482431,158243100,,,14 824-3?,,,,,COMODIN.jpg,-,-
-1483811,20000056,,,14838-1,,,,,"IMG_7938.JPG, IMG_7939.JPG, IMG_7940.JPG, IMG_7941.JPG",-,-
-87495749,97495749,,,8749 / 5749,,,,,COMODIN.jpg,-,-
+1482431,158243100,Sin identificar,,14 824-3?,,,,,COMODIN.jpg,-,-
+1483811,20000056,Sin identificar,,14838-1,,,,,"IMG_7938.JPG, IMG_7939.JPG, IMG_7940.JPG, IMG_7941.JPG",-,-
+87495749,97495749,Sin identificar,,8749 / 5749,,,,,COMODIN.jpg,-,-
+99999999,,Sin identificar,.,a,a,a,a,a,COMODIN.jpg,083_L_MK1.mp4,083_L_MK1.mp4
