@@ -11,7 +11,7 @@ id: node.objeto.body
 field_name: body
 entity_type: node
 bundle: objeto
-label: Body
+label: 'Mas información'
 description: ''
 required: false
 translatable: true

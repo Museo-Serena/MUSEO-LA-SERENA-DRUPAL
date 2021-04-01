@@ -9,7 +9,7 @@ id: node.objeto.field_comuna
 field_name: field_comuna
 entity_type: node
 bundle: objeto
-label: Comuna
+label: 'Comuna, Provincia'
 description: ''
 required: true
 translatable: true
